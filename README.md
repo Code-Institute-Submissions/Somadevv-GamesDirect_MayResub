@@ -65,8 +65,8 @@
 
 ### **Mobile/Tablet/Desktop**
 <img src="assets/wireframes/Home-mobile.png" alt="drawing" width="175" height="300"/><br>
-<img src="assets/wireframes/Home-tablet.png" alt="drawing" width="210" height="300"/>
-<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="320" height="300"/>
+<img src="assets/wireframes/Home-tablet.png" alt="drawing" width="205" height="300"/>
+<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="315" height="400"/>
 <br>
 <br>
 
@@ -80,8 +80,8 @@
 
 ### **Mobile/Tablet/Desktop**
 <img src="assets/wireframes/Toprated-mobile.png" alt="drawing" width="175" height="300"/><br>
-<img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="210" height="300"/>
-<img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="320" height="300"/>
+<img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="205" height="300"/>
+<img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="315" height="400"/>
 <br>
 <br>
 
@@ -97,20 +97,15 @@
 <img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="320" height="300"/>
 
 ***
-
 [comment]: <> (--------------------------------CONTACT PAGES)
-
 ## **CONTACT PAGES**
+
 ***
 
 ### **_Mobile_**
-<img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="200" height="300"/>
-
-### **_Tablet_**
-<img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="250" height="350"/>
-
-### **_Desktop_**
-<img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="350" height="200"/>
+<img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="175" height="300"/>
+<img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="210" height="300"/>
+<img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="320" height="400"/>
 
 
 
