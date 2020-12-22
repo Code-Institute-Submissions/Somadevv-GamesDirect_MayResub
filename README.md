@@ -92,7 +92,7 @@ GamesDirect was built with the intention of giving users easy to use access on t
 ## **FEATURED PAGES**
 
 ---
-
+s
 ### **Mobile/Tablet/Desktop**
 
 <img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="175" height="300"/>
