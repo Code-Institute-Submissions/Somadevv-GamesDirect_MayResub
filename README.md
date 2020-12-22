@@ -61,29 +61,27 @@
 
 # HOME PAGES
 
-[comment]: <> (--------------------------------HOME PAGES)
+***
+[comment]: <> (--------------------------------HOME PAGES)   
+## **FEATURED PAGES**
+
+***
 
 ### **Mobile/Tablet/Desktop**
 <img src="assets/wireframes/Home-mobile.png" alt="drawing" width="175" height="300"/>
-<img src="assets/wireframes/Home-tablet.png" alt="drawing" width="205" height="300"/>
+<img src="assets/wireframes/Home-tablet.png" alt="drawing" width="210" height="300"/>
 <img src="assets/wireframes/Home-desktop.png" alt="drawing" width="320" height="300"/>
-<br>
-<br>
 
----
-
-[comment]: <> (--------------------------------TOP RATED PAGES)
-
+***
+[comment]: <> (--------------------------------TOP RATED PAGES)   
 ## **TOP RATED PAGES**
 
 ***
 
 ### **Mobile/Tablet/Desktop**
 <img src="assets/wireframes/Toprated-mobile.png" alt="drawing" width="175" height="300"/>
-<img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="205" height="300"/>
+<img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="210" height="300"/>
 <img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="320" height="300"/>
-<br>
-<br>
 
 ***
 [comment]: <> (--------------------------------FEATURED PAGES)   
@@ -97,16 +95,15 @@
 <img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="320" height="300"/>
 
 ***
-[comment]: <> (--------------------------------CONTACT PAGES)
+[comment]: <> (--------------------------------CONTACT PAGES)   
 ## **CONTACT PAGES**
 
 ***
 
-### **_Mobile_**
+### **Mobile/Tablet/Desktop**
 <img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="210" height="300"/>
 <img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="320" height="300"/>
-
 
 
 ### **_Wireframes [PDF]_**
