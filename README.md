@@ -102,13 +102,10 @@
 
 ### **Mobile**
 <img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="200" height="300"/>
-### **Tablet**
 <img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="250" height="350"/>
-
-### **_Desktop_**
 <img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="350" height="200"/>
 
----
+***
 
 [comment]: <> (--------------------------------CONTACT PAGES)
 
