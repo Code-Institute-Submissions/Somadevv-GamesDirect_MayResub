@@ -23,38 +23,89 @@
 
 
 <li>As a First Desktop/Tablet/Mobile user, I want to be able to 'Sign Up' so that I am notified when any major updates and/or changes to the website or Company are made</li>
+</ul>
+
 ***
 
 
 ### <span style="color: rgb(66, 135, 245)">***Returning  Visitor Goals***</span>
+<br>
 <ul>
+
 <li>As a Returning user, I want to feel up to date with any top rated/featured games this year/next year</li>
+
 <li>As a Returning user, I want to be able to pre-order games that have been featured for next years' release</li>
-<li>As a Returning user, I want to be able to contact/email support if I feel they have misssed out on a top rated/featured game</li></ul>
+<li>As a Returning user, I want to be able to contact/email support if I feel they have misssed out on a top rated/featured game</li></ul><br>
 
 ***
 
 
 ### <span style="color: rgb(66, 135, 245)">***Frequent Visitor Goals***</span>
+<br>
 <ul><li>As a Frequent user, I want to be able to see if/when there has been any new additions added to the top rated games this year, so I can be informed about this product and make a purchase if I wish to</li>
-<li>As a Frequent user, I want to be able to check if there have been any additional features added to the featured games section, so I can</li>
+<li>As a Frequent user, I want to be able to check if there have been any additional features added to the featured games section, so I can</li> </ul>
 
 ***
 
-## <span style="color: rgb(66, 135, 245)">***Wireframes***</span>
-***
-### **Home Page Wireframes**
+[comment]: <> (HOME PAGE)
+----------------------------------------------------------------------------------------------
+
+## <span style="color: rgb(66, 135, 245)">***HOME PAGES***</span>
 <br>
 
-
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: green">***Mobile***</span>
+### <span style="color: yellow">***Mobile***</span>
 
 <img src="assets/wireframes/Home-mobile.png" alt="drawing" width="200" height="300"/><br>
-Tablet
-<img src="assets/wireframes/Home-tablet.png" alt="drawing" width="300" height="200"/>
 
-Desktop
-<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="300" height="200"/>
+### <span style="color: yellow">***Tablet***</span>
+<img src="assets/wireframes/Home-tablet.png" alt="drawing" width="250" height="350"/>
+
+### <span style="color: yellow">***Desktop***</span>
+<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="350" height="200"/>
+
+***
+
+[comment]: <> (TOP RATED PAGE)   ----------------------------------------------------------------------------------------------
+
+## <span style="color: rgb(66, 135, 245)">***TOP RATED PAGES***</span>
+<br>
+
+### <span style="color: yellow">***Mobile***</span>
+
+<img src="assets/wireframes/Toprated-mobile.png" alt="drawing" width="200" height="300"/><br>
+
+### <span style="color: yellow">***Tablet***</span>
+<img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="250" height="350"/>
+
+### <span style="color: yellow">***Desktop***</span>
+<img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="350" height="200"/>
+
+***
+
+[comment]: <> (FEATURED PAGE)   ----------------------------------------------------------------------------------------------
+
+## <span style="color: rgb(66, 135, 245)">***FEATURED PAGES***</span>
+<br>
+
+### <span style="color: yellow">***Mobile***</span>
+
+<img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="200" height="300"/><br>
+
+### <span style="color: yellow">***Tablet***</span>
+<img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="250" height="350"/>
+
+### <span style="color: yellow">***Desktop***</span>
+<img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="350" height="200"/>
+
+***
+
+
+
+
+
+
+***
+***
 
 ### <span style="color: rgb(66, 135, 245)">***Wireframes [PDF]***</span>
 ***
