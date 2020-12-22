@@ -93,7 +93,7 @@
 
 ### **Mobile/Tablet/Desktop**
 <img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="195" height="300"/>
-<img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="225" height="325"/>
+<img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="210" height="325"/>
 <img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="320" height="200"/>
 
 ***
