@@ -59,8 +59,6 @@ GamesDirect was built with the intention of giving users easy to use access on t
 
 
 
-[comment]: <> (--------------------------------HOME PAGESS)
-
 ## **HOME PAGES**
 
 ---
@@ -114,6 +112,8 @@ GamesDirect was built with the intention of giving users easy to use access on t
 <img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="210" height="300"/>
 <img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="320" height="300"/>
+[comment]: <> (--------------------------------HOME PAGESS)
+
 
 ### **_Wireframes [PDF]_**
 
@@ -135,7 +135,7 @@ GamesDirect was built with the intention of giving users easy to use access on t
 <pre>As a First user, I want to be able to 'Sign Up' so that I am notified when any major updates and/or changes to the website or Company are made</pre>
 
 ## Top Rated Page
-<ul><li></li>
+<ul><li></li></ul>
 
 
 ## Contact Page
