@@ -57,53 +57,65 @@
 
 [comment]: <> (--------------------------------WIREFRAMES)
 
-***
-[comment]: <> (--------------------------------HOME PAGESS)   
+---
+
+[comment]: <> (--------------------------------HOME PAGESS)
+
 ## **HOME PAGES**
 
-***
+---
 
 ### **Mobile/Tablet/Desktop**
+
 <img src="assets/wireframes/Home-mobile.png" alt="drawing" width="175" height="300"/>
+
 <img src="assets/wireframes/Home-tablet.png" alt="drawing" width="220" height="300"/>
+
 <img src="assets/wireframes/Home-desktop.png" alt="drawing" width="320" height="300"/>
 
-***
-[comment]: <> (--------------------------------TOP RATED PAGES)   
+---
+
+[comment]: <> (--------------------------------TOP RATED PAGES)
+
 ## **TOP RATED PAGES**
 
-***
+---
 
 ### **Mobile/Tablet/Desktop**
+
 <img src="assets/wireframes/Toprated-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="220" height="300"/>
 <img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="320" height="300"/>
 
-***
-[comment]: <> (--------------------------------FEATURED PAGES)   
+---
+
+[comment]: <> (--------------------------------FEATURED PAGES)
+
 ## **FEATURED PAGES**
 
-***
+---
 
 ### **Mobile/Tablet/Desktop**
+
 <img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="220" height="300"/>
 <img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="320" height="300"/>
 
-***
-[comment]: <> (--------------------------------CONTACT PAGES)   
+---
+
+[comment]: <> (--------------------------------CONTACT PAGES)
+
 ## **CONTACT PAGES**
 
-***
+---
 
 ### **Mobile/Tablet/Desktop**
+
 <img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="210" height="300"/>
 <img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="320" height="300"/>
 
-
 ### **_Wireframes [PDF]_**
-
 
 [Home Page](assets/wireframes/pdf/Home.pdf)<br>
 [Top Rated Page](assets/wireframes/pdf/Toprated.pdf)<br>
