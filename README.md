@@ -25,7 +25,7 @@
 ### **_First Time Visitor Goals_**
 
 <ul>
-<li>As a First Time Desktop/Tablet/Mobile user, I want to be able to find content such as prices and dates on featured & top rated games so that I can purchase/pre-order a product</li>
+<li>As a First Time Desktop/Tablet/Mobile user, I want to be able to find content content and navigate around the web application with ease</li>
 
 <li>As a First Time Desktop/Tablet/Mobile user, I want to be introduced to the websites' main purpose/goal with ease, so that I can quickly decide if I'm interested in the service provided</li>
 
@@ -120,4 +120,21 @@
 [Home Page](assets/wireframes/pdf/Home.pdf)<br>
 [Top Rated Page](assets/wireframes/pdf/Toprated.pdf)<br>
 [Featured Page](assets/wireframes/pdf/Featured.pdf)<br>
-[Contact Page](assets/wireframes/pdf/Contact.pdf)
+[Contact Page](assets/wireframes/pdf/Contact.pdf)<br><br>
+
+***
+
+# Features
+
+## Home Page
+<ul>
+<li>The Home page will contain a Navigation bar to let users navigate around the web application and to help them locate where they are relative to the web pages </li><ul><li><pre>As a First Time Desktop/Tablet/Mobile user, I want to be able to find content content and navigate around the web application with ease</pre>
+<li>The Home page will contain an introduction banner that explains what the websites' main goal is</li>
+
+
+## Top Rated Page
+
+## Featured Page
+
+## Contact Page
+Feature 1 - allows users X to achieve Y, by having them fill out Z
