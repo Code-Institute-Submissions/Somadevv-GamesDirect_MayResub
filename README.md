@@ -57,7 +57,7 @@
 
 [comment]: <> (--------------------------------WIREFRAMES)
 
----
+
 
 [comment]: <> (--------------------------------HOME PAGESS)
 
@@ -69,7 +69,7 @@
 
 <img src="assets/wireframes/Home-mobile.png" alt="drawing" width="175" height="300"/>
 
-<img src="assets/wireframes/Home-tablet.png" alt="drawing" width="220" height="300"/>
+<img src="assets/wireframes/Home-tablet.png" alt="drawing" width="500" height="300"/>
 
 <img src="assets/wireframes/Home-desktop.png" alt="drawing" width="320" height="300"/>
 
@@ -89,7 +89,7 @@
 
 ---
 
-[comment]: <> (--------------------------------FEATURED PAGES)
+[comment]: <> (------5--------------------------FEATURED PAGES)
 
 ## **FEATURED PAGES**
 
