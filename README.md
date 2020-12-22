@@ -47,13 +47,12 @@
 
 ***
 
-[comment]: <> (HOME PAGE)
-----------------------------------------------------------------------------------------------
+[comment]: <> (--------------------------------HOME PAGES)
 
 ## <span style="color: rgb(66, 135, 245)">***HOME PAGES***</span>
 <br>
 
-### <span style="color: yellow">***Mobile***</span>
+# HOME PAGES
 
 <img src="assets/wireframes/Home-mobile.png" alt="drawing" width="200" height="300"/><br>
 
@@ -65,7 +64,7 @@
 
 ***
 
-[comment]: <> (TOP RATED PAGE)   ----------------------------------------------------------------------------------------------
+[comment]: <> (--------------------------------TOP RATED PAGES)  
 
 ## <span style="color: rgb(66, 135, 245)">***TOP RATED PAGES***</span>
 <br>
@@ -82,7 +81,25 @@
 
 ***
 
-[comment]: <> (FEATURED PAGE)   ----------------------------------------------------------------------------------------------
+[comment]: <> (--------------------------------FEATURED PAGES)   
+
+## <span style="color: rgb(66, 135, 245)">***FEATURED PAGES***</span>
+<br>
+
+### <span style="color: yellow">***Mobile***</span>
+
+<img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="200" height="300"/><br>
+
+### <span style="color: yellow">***Tablet***</span>
+<img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="250" height="350"/>
+
+### <span style="color: yellow">***Desktop***</span>
+<img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="350" height="200"/>
+
+***
+
+
+[comment]: <> (--------------------------------CONTACT PAGES)   
 
 ## <span style="color: rgb(66, 135, 245)">***FEATURED PAGES***</span>
 <br>
