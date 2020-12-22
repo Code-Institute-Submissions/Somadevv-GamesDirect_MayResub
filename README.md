@@ -12,7 +12,7 @@
 
 ---
 
-<pre>GamesDirect was built with the intention of giving users easy to use access on the top rated games in 2020 and featured upcoming games of 2021.</pre>
+GamesDirect was built with the intention of giving users easy to use access on the top rated games in 2020 and featured upcoming games of 2021.
 
 ---
 
@@ -25,16 +25,16 @@
 ### **_First Time Visitor Goals_**
 
 <ul>
-<li>As a First Time user, , I want to be able to find content content and navigate around the web application with ease</li>
+<li>As a First Time user, I want to be able to find content content and navigate around the web application with ease</li>
 
-<li>As a First Time user, , I want to be introduced to the websites' main purpose/goal with ease, so that I can quickly decide if I'm interested in the service provided</li>
+<li>As a First Time user, I want to be introduced to the websites' main purpose/goal with ease, so that I can quickly decide if I'm interested in the service provided</li>
 
-<li>As a First Time user, , I want to have access and clearly see the companys' external social links (Twitter, Facebook, Instagram) so that I can view their activity timeline</li>
+<li>As a First Time user, I want to have access and clearly see the companys' external social links (Twitter, Facebook, Instagram) so that I can view their activity timeline</li>
 
-<li>As a First Desktop/Tablet/Mobile user, I want to be able to 'Sign Up' so that I am notified when any major updates and/or changes to the website or Company are made</li>
+<li>As a First user, I want to be able to 'Sign Up' so that I am notified when any major updates and/or changes to the website or Company are made</li>
 </ul>
 
----
+***
 
 ### **_Returning Visitor Goals_**
 
@@ -128,7 +128,7 @@
 
 ## Home Page
 <ul>
-<li>The Home page will contain a Navigation bar to let users navigate around the web application and to help them locate where they are relative to the web pages </li><ul><li><pre>As a First Time user, , I want to be able to find content content<br> and navigate around the web application with ease</pre>
+<li>The Home page will contain a Navigation bar to let users navigate around the web application and to help them locate where they are relative to the web pages </li><ul><li><pre>As a First Time user, I want to be able to find content content<br> and navigate around the web application with ease</pre>
 <li>The Home page will contain an introduction banner that explains what the websites' main goal is</li>
 
 
