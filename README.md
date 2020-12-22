@@ -13,7 +13,7 @@
 
 # ***User Stories*** 
 
-### <span style="color: rgb(66, 135, 245)">***First Time Visitor Goals***</span>
+### ***First Time Visitor Goals***
 <ul>
 <li>As a First Time Desktop/Tablet/Mobile user, I want to be able to find content such as prices and dates on featured & top rated games so that I can purchase/pre-order a product</li>
 
@@ -28,7 +28,7 @@
 ***
 
 
-### <span style="color: rgb(66, 135, 245)">***Returning  Visitor Goals***</span>
+### ***Returning  Visitor Goals***
 <br>
 <ul>
 
@@ -40,60 +40,60 @@
 ***
 
 
-### <span style="color: rgb(66, 135, 245)">***Frequent Visitor Goals***</span>
+### ***Frequent Visitor Goals***
 <br>
 <ul><li>As a Frequent user, I want to be able to see if/when there has been any new additions added to the top rated games this year, so I can be informed about this product and make a purchase if I wish to</li>
 <li>As a Frequent user, I want to be able to check if there have been any additional features added to the featured games section, so I can</li> </ul>
+<br>
 
 ***
 
 [comment]: <> (--------------------------------HOME PAGES)
 
-## <span style="color: rgb(66, 135, 245)">***HOME PAGES***</span>
-<br>
 
 # HOME PAGES
+<br>
 
 <img src="assets/wireframes/Home-mobile.png" alt="drawing" width="200" height="300"/><br>
 
-### <span style="color: yellow">***Tablet***</span>
+### ***Tablet***
 <img src="assets/wireframes/Home-tablet.png" alt="drawing" width="250" height="350"/>
 
-### <span style="color: yellow">***Desktop***</span>
+### ***Desktop***
 <img src="assets/wireframes/Home-desktop.png" alt="drawing" width="350" height="200"/>
 
 ***
 
 [comment]: <> (--------------------------------TOP RATED PAGES)  
 
-## <span style="color: rgb(66, 135, 245)">***TOP RATED PAGES***</span>
+## TOP RATED PAGES***
 <br>
 
-### <span style="color: yellow">***Mobile***</span>
+### ***Mobile***
 
 <img src="assets/wireframes/Toprated-mobile.png" alt="drawing" width="200" height="300"/><br>
 
-### <span style="color: yellow">***Tablet***</span>
+### ***Tablet***
 <img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="250" height="350"/>
 
-### <span style="color: yellow">***Desktop***</span>
+### ***Desktop***
 <img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="350" height="200"/>
 
 ***
 
 [comment]: <> (--------------------------------FEATURED PAGES)   
 
-## <span style="color: rgb(66, 135, 245)">***FEATURED PAGES***</span>
+## ***FEATURED PAGES***
 <br>
 
-### <span style="color: yellow">***Mobile***</span>
+### ***Mobile***
 
 <img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="200" height="300"/><br>
 
-### <span style="color: yellow">***Tablet***</span>
+### ***Tablet***
 <img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="250" height="350"/>
 
-### <span style="color: yellow">***Desktop***</span>
+### ***Desktop***
 <img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="350" height="200"/>
 
 ***
@@ -101,32 +101,30 @@
 
 [comment]: <> (--------------------------------CONTACT PAGES)   
 
-## <span style="color: rgb(66, 135, 245)">***FEATURED PAGES***</span>
+## ***FEATURED PAGES***
 <br>
 
-### <span style="color: yellow">***Mobile***</span>
+### ***Mobile***
 
-<img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="200" height="300"/><br>
+<img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="200" height="300"/><br>
 
-### <span style="color: yellow">***Tablet***</span>
-<img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="250" height="350"/>
+### ***Tablet***
+<img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="250" height="350"/>
 
-### <span style="color: yellow">***Desktop***</span>
-<img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="350" height="200"/>
-
-***
-
-
-
-
-
+### ***Desktop***
+<img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="350" height="200"/>
 
 ***
-***
 
-### <span style="color: rgb(66, 135, 245)">***Wireframes [PDF]***</span>
+
+
+
+### ***Wireframes [PDF]***
 ***
 [Home Page Wireframe](assets/wireframes/pdf/Home.pdf)
+[Home Page Wireframe](assets/wireframes/pdf/Toprated.pdf)
+[Home Page Wireframe](assets/wireframes/pdf/Featured.pdf)
+[Home Page Wireframe](assets/wireframes/pdf/Contact.pdf)
 
 
 
