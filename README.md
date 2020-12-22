@@ -101,8 +101,7 @@
 ***
 
 ### **Mobile**
-<img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="200" height="300"/
-
+<img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="200" height="300"/>
 ### **Tablet**
 <img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="250" height="350"/>
 
