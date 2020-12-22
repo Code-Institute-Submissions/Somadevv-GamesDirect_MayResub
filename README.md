@@ -128,7 +128,7 @@
 
 ## Home Page
 <ul>
-<li>The Home page will contain a Navigation bar to let users navigate around the web application and to help them locate where they are relative to the web pages </li><ul><li><pre>As a First Time Desktop/Tablet/Mobile user, I want to be able to find content content and navigate around the web application with ease</pre>
+<li>The Home page will contain a Navigation bar to let users navigate around the web application and to help them locate where they are relative to the web pages </li><ul><li><pre>As a First Time Desktop/Tablet/Mobile user, I want to be able to find content content<br> and navigate around the web application with ease</pre>
 <li>The Home page will contain an introduction banner that explains what the websites' main goal is</li>
 
 
