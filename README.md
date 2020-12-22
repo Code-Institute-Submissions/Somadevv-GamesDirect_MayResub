@@ -63,14 +63,10 @@
 
 [comment]: <> (--------------------------------HOME PAGES)
 
-### **Mobile**
+### **Mobile/Tablet/Desktop**
 <img src="assets/wireframes/Home-mobile.png" alt="drawing" width="200" height="300"/><br>
-
-### **Tablet**
 <img src="assets/wireframes/Home-tablet.png" alt="drawing" width="250" height="350"/>
-
-### **Desktop**
-<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="350" height="200"/>
+<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="325" height="200"/>
 <br>
 <br>
 
@@ -82,15 +78,10 @@
 
 ***
 
-### **Mobile**
+### **Mobile/Tablet/Desktop**
 <img src="assets/wireframes/Toprated-mobile.png" alt="drawing" width="200" height="300"/><br>
-
-### **_Tablet_**
 <img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="250" height="350"/>
-
-### **_Desktop_**
-
-<img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="350" height="200"/>
+<img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="325" height="200"/>
 <br>
 <br>
 
@@ -100,10 +91,10 @@
 
 ***
 
-### **Mobile**
+### **Mobile/Tablet/Desktop**
 <img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="200" height="300"/>
 <img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="250" height="350"/>
-<img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="350" height="200"/>
+<img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="325" height="200"/>
 
 ***
 
