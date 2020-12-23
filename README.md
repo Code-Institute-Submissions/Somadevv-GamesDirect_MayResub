@@ -29,7 +29,7 @@ GamesDirect was built with the intention of giving users easy to use access on t
 <li>I should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
 <li>I should be able to view the highest rated games featured for the coming year</li>
 <li>I should be able to easily contact the websites' support team regarding any enquiries/suggestions I have</li>
-<li>I should be able to effectively view additions to the featured games section clearly and efficiently</li>
+<li>I should be able to effectively view additions to the featured games <br>section clearly and efficiently</li>
 <li>I should be able to view the web application and the content within it clearly on my mobile/tablet device</li>
 
 </ul>
