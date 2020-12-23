@@ -20,9 +20,9 @@ GamesDirect was built with the intention of giving users easy to use access on t
 
 <ul>
 
-# **_User Stories_**
+# **User Stories**
 
-### **_First Time Visitor Goals_**
+### **First Time Visitor Goals**
 
 <ul>
 <li>I should to be able to find content and navigate around the web application with ease</li>
@@ -34,7 +34,7 @@ GamesDirect was built with the intention of giving users easy to use access on t
 
 </ul>
 
-### **_Frequent Visitor Goals_**
+### **Frequent Visitor Goals**
 
 <ul>
 <li>I should be able to view the external social links effortlessly</li>
@@ -55,7 +55,7 @@ GamesDirect was built with the intention of giving users easy to use access on t
 
 <br>
 
-## **_FIRST TIME VISITORS_**
+## **FIRST TIME VISITORS**
 
 The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: _<pre>I should be able to find content & navigate the web application with ease</pre>_
 
@@ -83,7 +83,7 @@ The web application will have a footer element on every web page that will offer
 
 _<pre>I should be able to view the external social links effortlessly</pre>_
 
-## **_RETURNING VISITORS_**
+## **RETURNING VISITORS**
 
 Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
 
@@ -93,17 +93,70 @@ The web application has a Contact page where the user can directly contact the s
 
 _<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
 
-## **_FREQUENT VISITORS_**
+## **FREQUENT VISITORS**
 
 The Featured & Top Rated pages will contain each products supported platform & product rating, The purpose of this is to support the user story:
 
 _<pre>I should be able to view and compare ratings & platforms on individual products</pre>_
 
-
 The web application will frequentely keep the competetive products up to date, The purpose of this is to support the user story:
 _<pre>I should be able to see any recent updates/changes made to the web application</pre>_
 
 ---
+
+# **FEATURES TO ADD**
+
+<ul>
+<li>Add a Sign up & Sign in function to offer user notifications on updates</li>
+<li>Add a catergory to Top rated section to keep a more organized web application</li>
+<li>Add a search function so users can easily locate specific queries</li>
+<li>Add a compare function that allows users to compare products</li>
+<li>Add a in browser activity log showing what update/products have been pushed to the web application</li>
+</ul>
+
+---
+
+# **TECHNOLOGIES USED**
+<ul><li>HTML</li>
+<ul><li>This web application uses HTML (Hyper text markup langauge) as the main language to structure each web page</li>
+</ul>
+</ul>
+
+<ul><li>CSS</li>
+<ul><li>This web application uses CSS (Cascasing style sheet) to style each web page</li>
+</ul>
+</ul>
+
+<ul><li>
+
+[Bootstrap](https://getbootstrap.com)</li>
+
+<ul><li>This web application uses Bootstrap to adopt strong grid layouts</li>
+</ul>
+</ul>
+<ul>
+<li>
+
+[Font Awesome](https://fontawesome.com)</li>
+
+<ul><li>This web application uses Font Awesome to take advantage of their icons</li>
+</ul>
+</ul>
+
+<ul><li>
+
+[Google Fonts](https://fonts.google.com)</li>
+
+<ul><li>This web application uses Google Fonts to ensure the applications content is as readable as possible for the user</li>
+</ul>
+</ul>
+<ul><li>
+
+[Visual Studio Code](https://code.visualstudio.com/)</li>
+
+<ul><li>Visual Studio Code was tbe Integrated Development Environment used to develope the web application</li>
+</ul>
+</ul>
 
 [comment]: <> (--------------------------------WIREFRAMES)
 
@@ -117,7 +170,7 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 <img src="assets/wireframes/Home-tablet.png" alt="drawing" width="220" height="300"/>
 
-<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="320" height="300"/>
+<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="320" height="200"/>
 
 ---
 
@@ -131,7 +184,7 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 <img src="assets/wireframes/Toprated-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="220" height="300"/>
-<img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="320" height="300"/>
+<img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="320" height="200"/>
 
 ---
 
@@ -143,7 +196,7 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 <img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="220" height="300"/>
-<img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="320" height="300"/>
+<img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="320" height="200"/>
 
 [comment]: <> (--------------------------------CONTACT PAGES)
 
@@ -155,7 +208,7 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 <img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="210" height="300"/>
-<img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="320" height="300"/>
+<img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="320" height="200"/>
 
 [comment]: <> (--------------------------------HOME PAGESS)
 
