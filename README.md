@@ -25,9 +25,9 @@ GamesDirect was built with the intention of giving users easy to use access on t
 ## **_First Time Visitor Goals_**
 
 <ul>
-<li>I want to be able to find content and navigate around the web application with ease</li>
-<li>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
-<li>I want to be able to view the highest rated games featured for the coming year</li>
+<li>I should to be able to find content and navigate around the web application with ease</li>
+<li>I should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
+<li>I should be able to view the highest rated games featured for the coming year</li>
 <li>I should be able to easily contact the websites' support team regarding any enquiries/suggestions I have</li>
 <li>I should be able to effectively view additions to the featured games section clearly and efficiently</li>
 <li>I should be able to view the web application and the content within it clearly on my mobile/tablet device</li>
@@ -39,25 +39,25 @@ GamesDirect was built with the intention of giving users easy to use access on t
 <ul>
 <li>I should be able to view the external social links effortlessly</li>
 <li>I should be able to view and compare ratings & platforms on individual products</li>
-<li>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
+<li>I should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
 <li>I should be able to see any recent updates/changes made to the web application</li></ul>
 
 ### **Returning Visitor Goals**
 
 <ul>
 <li>I should be able to view the web application and the content within it clearly on my mobile/tablet device</li>
-<li>I want to feel up to date with any top rated/featured games this year/next year</li>
+<li>I should be up to date with any top rated/featured games this year/next year</li>
+<li>I should be able to contact/email support if I feel they have misssed out on a top rated/featured game</li></ul><br>
 
-<li>I want to be able to contact/email support if I feel they have misssed out on a top rated/featured game</li></ul><br>
-
-***
+---
 
 # Structure & Features
+
 <br>
 
 # **_FIRST TIME VISITORS_**
 
-The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: <pre>I want to be able to find content and navigate around the web application with ease</pre>
+The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: <pre>I should be able to find content & navigate the web application with ease</pre>
 
 Each page will contain an introduction banner to display what the pages' description is, The purpose of this is to support the user story:
 
@@ -65,7 +65,7 @@ Each page will contain an introduction banner to display what the pages' descrip
 
 The Featured page will contain all of next years' top rated games, The purpose of this is to support the user story:
 
-<pre>I want to be able to view the highest rated games featured for the coming year</pre>
+<pre>I should be able to view the highest rated games featured for the coming year</pre>
 
 The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
 
@@ -101,7 +101,7 @@ The Featured & Top Rated pages will contain each products supported platform & p
 
 <pre>I should be able to see any recent updates/changes made to the web application</pre>
 
-***
+---
 
 [comment]: <> (--------------------------------WIREFRAMES)
 
@@ -136,8 +136,6 @@ The Featured & Top Rated pages will contain each products supported platform & p
 [comment]: <> (------5--------------------------FEATURED PAGES)
 
 # **_FEATURED PAGES_**
-
-
 
 ### **Mobile/Tablet/Desktop**
 
