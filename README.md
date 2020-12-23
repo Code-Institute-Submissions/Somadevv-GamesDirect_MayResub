@@ -25,7 +25,7 @@ GamesDirect was built with the intention of giving users easy to use access on t
 ## **_First Time Visitor Goals_**
 
 <ul>
-<li>I want to be able to find content and navigate around the web application with ease<li>
+<li>I want to be able to find content and navigate around the web application with ease</li>
 <li>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
 <li>I want to be able to view the highest rated games featured for the coming year</li>
 <li>I should be able to easily contact the websites' support team regarding any enquiries/suggestions I have</li>
