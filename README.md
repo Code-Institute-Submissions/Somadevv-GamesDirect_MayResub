@@ -22,48 +22,94 @@ GamesDirect was built with the intention of giving users easy to use access on t
 
 # **_User Stories_**
 
-### **_First Time Visitor Goals_**
+## **_First Time Visitor Goals_**
 
 <ul>
-<li>As a First Time user, I want to be able to find content content and navigate around the web application with ease</li>
+<li>I want to be able to find content and navigate around the web application with ease<li>
+<li>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
+<li>I want to be able to view the highest rated games featured for the coming year</li>
+<li>I should be able to easily contact the websites' support team regarding any enquiries/suggestions I have</li>
+<li>I should be able to effectively view additions to the featured games section clearly and efficiently</li>
+<li>I should be able to view the web application and the content within it clearly on my mobile/tablet device</li>
 
-<li>As a First Time user, I want to be introduced to the websites' main purpose/goal with ease, so that I can quickly decide if I'm interested in the service provided</li>
-
-<li>As a First Time user, I want to have access and clearly see the companys' external social links (Twitter, Facebook, Instagram) so that I can view their activity timeline</li>
-
-<li>As a First user, I want to be able to 'Sign Up' so that I am notified when any major updates and/or changes to the website or Company are made</li>
 </ul>
-
-***
-
-### **_Returning Visitor Goals_**
-
-<br>
-<ul>
-
-<li>As a Returning user, I want to feel up to date with any top rated/featured games this year/next year</li>
-
-<li>As a Returning user, I want to be able to pre-order games that have been featured for next years' release</li>
-<li>As a Returning user, I want to be able to contact/email support if I feel they have misssed out on a top rated/featured game</li></ul><br>
-
----
 
 ### **_Frequent Visitor Goals_**
 
+<ul>
+<li>I should be able to view the external social links effortlessly</li>
+<li>I should be able to view and compare ratings & platforms on individual products</li>
+<li>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
+<li>I should be able to see any recent updates/changes made to the web application</li></ul>
+
+### **Returning Visitor Goals**
+
+<ul>
+<li>I should be able to view the web application and the content within it clearly on my mobile/tablet device</li>
+<li>I want to feel up to date with any top rated/featured games this year/next year</li>
+
+<li>I want to be able to contact/email support if I feel they have misssed out on a top rated/featured game</li></ul><br>
+
+***
+
+# Structure & Features
 <br>
-<ul><li>As a Frequent user, I want to be able to see if/when there has been any new additions added to the top rated games this year, so I can be informed about this product and make a purchase if I wish to</li>
-<li>As a Frequent user, I want to be able to check if there have been any additional features added to the featured games section, so I can</li> </ul>
-<br>
+
+# **_FIRST TIME VISITORS_**
+
+The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: <pre>I want to be able to find content and navigate around the web application with ease</pre>
+
+Each page will contain an introduction banner to display what the pages' description is, The purpose of this is to support the user story:
+
+<pre>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</pre>
+
+The Featured page will contain all of next years' top rated games, The purpose of this is to support the user story:
+
+<pre>I want to be able to view the highest rated games featured for the coming year</pre>
+
+The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
+
+<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>
+
+Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
+
+<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>
+
+Custom front-end frameworks such as Bootstrap will be used to help structure the content on each page with mobile/tablet & desktop support in mind to help with user readability and visibility, The purpose of this is to support the user story:
+
+<pre>I should be able to view the web application and the content within it clearly on my mobile/tablet device</pre>
+
+The web application will have a footer element on every web page that will offer external social links and other relative information, The purpose of this is to support the user story:
+
+<pre>I should be able to view the external social links effortlessly</pre>
+
+# **_RETURNING VISITORS_**
+
+Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
+
+<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>
+
+The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
+
+<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>
+
+# **_FREQUENT VISITORS_**
+
+The Featured & Top Rated pages will contain each products supported platform & product rating, The purpose of this is to support the user story:
+
+<pre>I should be able to view and compare ratings & platforms on individual products</pre>
+
+<pre>I should be able to see any recent updates/changes made to the web application</pre>
+
+***
 
 [comment]: <> (--------------------------------WIREFRAMES)
 
+# **FRAMEWORKS**
 
+## Home Pages
 
-## **HOME PAGES**
-
----
-
-### **Mobile/Tablet/Desktop**
+### **_Mobile/Tablet/Desktop_**
 
 <img src="assets/wireframes/Home-mobile.png" alt="drawing" width="175" height="300"/>
 
@@ -75,7 +121,7 @@ GamesDirect was built with the intention of giving users easy to use access on t
 
 [comment]: <> (--------------------------------TOP RATED PAGES)
 
-## **TOP RATED PAGES**
+## **_TOP RATED PAGES_**
 
 ---
 
@@ -89,17 +135,15 @@ GamesDirect was built with the intention of giving users easy to use access on t
 
 [comment]: <> (------5--------------------------FEATURED PAGES)
 
-## **FEATURED PAGES**
+# **_FEATURED PAGES_**
 
----
-s
+
+
 ### **Mobile/Tablet/Desktop**
 
 <img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="220" height="300"/>
 <img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="320" height="300"/>
-
----
 
 [comment]: <> (--------------------------------CONTACT PAGES)
 
@@ -112,8 +156,8 @@ s
 <img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="175" height="300"/>
 <img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="210" height="300"/>
 <img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="320" height="300"/>
-[comment]: <> (--------------------------------HOME PAGESS)
 
+[comment]: <> (--------------------------------HOME PAGESS)
 
 ### **_Wireframes [PDF]_**
 
@@ -122,22 +166,4 @@ s
 [Featured Page](assets/wireframes/pdf/Featured.pdf)<br>
 [Contact Page](assets/wireframes/pdf/Contact.pdf)<br><br>
 
-***
-
-# Features
-
-## Home Page
-<ul>
-<li>The Home page will contain a Navigation bar to let users navigate around the web application and to help them locate where they are relative to the web pages </li><ul><li><pre>As a First Time user, I want to be able to find content content<br>and navigate around the web application with ease</pre>
-<li>The Home page will contain an introduction banner that explains what the websites' main goal is</li>
-<pre>As a First Time user, I want to be introduced to the websites' main purpose/goal with ease, so that I can quickly decide if I'm interested in the service provided</pre>
-<li>The Home page will contain a Sign in/up feature that lets the user stay in touch with future updates/features added to the web application</li>
-<pre>As a First user, I want to be able to 'Sign Up' so that I am notified when any major updates and/or changes to the website or Company are made</pre>
-
-## Top Rated Page
-<ul><li></li></ul>
-
-
-## Contact Page
-<ul><li></li>
-
+---
