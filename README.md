@@ -126,6 +126,15 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 <ul><li>This web application uses CSS (Cascasing style sheet) to style each web page</li>
 </ul>
 </ul>
+<ul><li>
+
+[Font Awesome](https://fontawesome.com)</li>
+
+<ul><li>This web application uses Font Awesome to take advantage of their icons</li>
+</ul>
+</ul>
+
+
 
 <ul><li>
 
@@ -137,19 +146,22 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 <ul>
 <li>
 
-[Font Awesome](https://fontawesome.com)</li>
 
-<ul><li>This web application uses Font Awesome to take advantage of their icons</li>
-</ul>
-</ul>
-
-<ul><li>
 
 [Google Fonts](https://fonts.google.com)</li>
 
 <ul><li>This web application uses Google Fonts to ensure the applications content is as readable as possible for the user</li>
 </ul>
 </ul>
+
+<ul><li>
+
+[Balsamiq](https://balsamiq.com/wireframes/)</li>
+
+<ul><li>This documentations wireframe work was provided using Balsmaiqs' application tools</li>
+</ul>
+</ul>
+
 <ul><li>
 
 [Visual Studio Code](https://code.visualstudio.com/)</li>
@@ -157,6 +169,40 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 <ul><li>Visual Studio Code was tbe Integrated Development Environment used to develope the web application</li>
 </ul>
 </ul>
+
+<ul><li>
+
+[GitHub](https://github.com/)</li>
+
+<ul><li>GithHub is the hosting site used to store the source code for the web application</li>
+</ul>
+</ul>
+
+<ul><li>
+
+[Git](https://git-scm.com/)</li>
+
+<ul><li>Git is used as a version control software to push code to the GitHub repository where the source code is located</li>
+</ul>
+</ul>
+
+<ul><li>
+
+[Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)</li>
+
+<ul><li>Google chrome provides a built in developer tool that can be used to inspect web page elements that can help debug issues with the site layout and test different CSS styles</li>
+</ul>
+</ul>
+
+<ul><li>
+
+[Coolors](https://coolors.co)</li>
+
+<ul><li>This web applications' color scheme was created by using Coolors' palette creator</li>
+</ul>
+</ul>
+
+
 
 [comment]: <> (--------------------------------WIREFRAMES)
 
