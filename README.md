@@ -22,7 +22,7 @@ GamesDirect was built with the intention of giving users easy to use access on t
 
 # **_User Stories_**
 
-## **_First Time Visitor Goals_**
+### **_First Time Visitor Goals_**
 
 <ul>
 <li>I should to be able to find content and navigate around the web application with ease</li>
