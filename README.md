@@ -55,7 +55,7 @@ GamesDirect was built with the intention of giving users easy to use access on t
 
 <br>
 
-# **_FIRST TIME VISITORS_**
+## **_FIRST TIME VISITORS_**
 
 The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: <pre>I should be able to find content & navigate the web application with ease</pre>
 
@@ -83,7 +83,7 @@ The web application will have a footer element on every web page that will offer
 
 <pre>I should be able to view the external social links effortlessly</pre>
 
-# **_RETURNING VISITORS_**
+## **_RETURNING VISITORS_**
 
 Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
 
@@ -93,7 +93,7 @@ The web application has a Contact page where the user can directly contact the s
 
 <pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>
 
-# **_FREQUENT VISITORS_**
+## **_FREQUENT VISITORS_**
 
 The Featured & Top Rated pages will contain each products supported platform & product rating, The purpose of this is to support the user story:
 
