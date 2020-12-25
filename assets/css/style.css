@@ -1,64 +1,77 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
   /* Add global vars for fonts/colors */
 }
-.hero-container{
-    width: 100%;
-    height: 25vh;
-    background-color: red;
+.container {
 }
-#hero-image{
+/* ----------------------------------------HERO IMAGE:COVER */
+
+#logo-dark {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  min-height: 40vh;
+  background-color: black;
+  opacity: .4;
+}
+/* ----------------------------------------HERO IMAGE */
+#hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/assets/images/banner.png");
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  height: 40vh;
+  background-size: 100% 100%;
+}
+/* ----------------------------------------NAVIGATION */
+
+#logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("/assets/images/logo.png");
+  background-size: 50% 50%;
+}
+#nav-icon {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: 0%;
+  color: red;
+  z-index: 555;
 
 }
-#nav-container{
-
-}
-#logo{
-    width: 100px;
-    height: 100px;
-    background-image: url('/assets/images/logo.png');
-    background-size: 50% 50%;
-}
-.nav-icon{
-
-}
-.nav-list{
-
-}
-.container{
-
-}
-.cta-container{
-    background-color: green;
-}
-#cta-title{
-
-}
-.main-container{
-    background-color: gray;
-}
-.card-container{
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
-}
-.card-title{
-
-}
-.card-image{
-    width: 75px;
-    height: 75px;
-}
-.card-description{
-
-}
-.btn{
-
-}
-.footer{
-    background-color: yellow;
+.nav-list {
 }
 
+/* ----------------------------------------CALL TO ACTION */
+.cta-container {
+  background-color: green;
+}
+#cta-title {
+}
+/* ----------------------------------------MAIN CONTENT (CARDS) */
+.main-container {
+  background-color: gray;
+}
+.card-container {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.card-title {
+}
+.card-image {
+  width: 75px;
+  height: 75px;
+}
+.card-description {
+}
+.btn {
+}
+/* ----------------------------------------FOOTER */
+.footer {
+  background-color: yellow;
+}
