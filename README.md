@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-## [**_UX/UI_**](#UX/UI)
+## [UX/UI](#UX/UI)
 
-#### - [User stories](#UX-Design)
+## [User stories](#User_Stories)
 
-#### - [Wireframes](#UX-Design)
+### - [Wireframes](#Wireframes)
 
 ---
 
