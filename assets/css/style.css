@@ -103,7 +103,12 @@ body {
   border: 1px solid #fe4066;
 }
 /* ----------------------------------------BUTTONS */
-
+.features:hover {
+  transform: scale(1.03);
+ 
+  transition: ease-in-out 250ms;
+}
+}
 .btn:hover {
   color: white;
   background-color: transparent;
