@@ -9,7 +9,6 @@ body {
   /* Add global vars for fonts/colors */
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  background-color: rgba(216, 216, 216, 0.945);
   margin: 0;
   padding: 0;
 
@@ -105,10 +104,11 @@ body {
 /* ----------------------------------------BUTTONS */
 .features:hover {
   transform: scale(1.03);
- 
-  transition: ease-in-out 250ms;
+  cursor: default;
+
+  transition: ease-in-out 2 50ms;
 }
-}
+
 .btn:hover {
   color: white;
   background-color: transparent;
@@ -190,7 +190,6 @@ body {
 /* ----------------------------------------MAIN CONTENT (CARDS) */
 
 .card-body {
-  
   position: absolute;
   padding-top: 7rem;
 }
@@ -202,8 +201,7 @@ body {
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-position: 60% 80%;
+
 }
 #featured-image2 {
   
@@ -235,19 +233,46 @@ body {
     height: 50rem;
 
 }
-.card-image {
+#featured-image1{
   margin-bottom: 2.5rem;
-  width: 77vw;
+  width: 100vw;
+  height: 50vh;
   background-size: 100% 100%;
+  
+
+}
+#featured-image2{
+  margin-bottom: 2.5rem;
+  width: 100vw;
+  height: 50vh;
+  background-size: 100% 100%;
+  
 
 }
 }
 
 /* -- Tablet -- */
 @media (min-width: 768px){
+  
   .features-container {
     margin-bottom: 27.5rem;
     height: 40rem;
+
+}
+#featured-image1{
+  margin-bottom: 2.5rem;
+  width: 75vw;
+  height: 50vh;
+  background-size: 100% 100%;
+  
+
+}
+#featured-image2{
+  margin-bottom: 2.5rem;
+  width: 75vw;
+  height: 50vh;
+  background-size: 100% 100%;
+  
 
 }
 }
@@ -261,7 +286,15 @@ body {
 
 
 }
-.card-image {
+#featured-image1{
+  margin-bottom: 2.5rem;
+  width: 50vw;
+  height: 50vh;
+  background-size: 100% 100%;
+  
+
+}
+#featured-image2{
   margin-bottom: 2.5rem;
   width: 50vw;
   height: 50vh;
