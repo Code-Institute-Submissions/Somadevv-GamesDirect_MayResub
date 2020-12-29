@@ -5,7 +5,7 @@
 }
 body {
   width: 100vh;
-  height: 100vw;
+  height: 100vh;
   /* Add global vars for fonts/colors  */
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -151,12 +151,12 @@ body {
 /* ----------------------------------------HERO IMAGE */
 #hero-image {
   position: absolute;
-  height: 25rem;
+  height: 70vh;
   width: 100vw;
   top: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.5)),url(/assets/images/hero-image.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .6 ), rgba(0, 0, 0, 0.3)),url(/assets/images/hero-image.png);
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  background-size: 100% 100%;
+  background-size: 210% 130%;
   background-repeat: no-repeat;
 
 }
@@ -228,6 +228,17 @@ body {
 /* -- Mobile -- */
 
 @media (min-width: 480px){
+  #hero-image {
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.5)),url(/assets/images/hero-image.png);
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  
+  }
   .features-container {
     position: relative;
     top: 17.5rem;
