@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
 
+
 }
 .btn {
   border-radius: 1rem;
@@ -76,7 +77,14 @@ body {
   color: white;
   background-color: transparent;
   transform: scale(1.05);
-
+ 
+  transition: ease-in-out 75ms;
+}
+.btn:hover {
+  color: white;
+  background-color: transparent;
+  transform: scale(1.05);
+  border: 1px solid #fe4066;
   transition: ease-in-out 75ms;
 }
 #logo:hover {
@@ -138,7 +146,6 @@ body {
 .intro-container {
   position: relative;
   text-align: center;
-  margin-bottom: 25vh;
 }
 .intro-title {
   font-size: 1.5rem;
@@ -156,9 +163,9 @@ body {
 
 .features-container {
   padding-top: 5.5rem;
-  
+  margin-top: 15rem;
 
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   height: auto;
 }
 .features {
@@ -207,7 +214,7 @@ body {
   }
   #hero-image {
     position: absolute;
-    height: 50vh;
+    height: 75vh;
     width: 100vw;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.5)),url(/assets/images/hero-image.png);
       box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
