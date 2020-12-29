@@ -14,8 +14,6 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-
-
 }
 .btn {
   border-radius: 1rem;
@@ -29,20 +27,11 @@ body {
 .font-weight-200 {
   font-weight: 200;
 }
-.font-weight-300 {
-  font-weight: 300;
-}
 .font-weight-400 {
   font-weight: 400;
 }
 .font-weight-500 {
   font-weight: 500;
-}
-.font-weight-700 {
-  font-weight: 900;
-}
-.font-weight-900 {
-  font-weight: 900;
 }
 
 .size-xsm {
@@ -77,7 +66,6 @@ body {
   color: white;
   background-color: transparent;
   transform: scale(1.05);
- 
   transition: ease-in-out 75ms;
 }
 .btn:hover {
@@ -119,8 +107,6 @@ body {
   float: right;
   
 }
-
-
 .navbar-fixed-top.scrolled {
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
@@ -148,6 +134,7 @@ body {
   text-align: center;
 }
 .intro-title {
+  margin-top: 5rem;
   font-size: 1.5rem;
   font-weight: 400;
 
