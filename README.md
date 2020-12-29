@@ -147,7 +147,11 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 <ul>
 <li>
 
+[Unsplash](https://unsplash.com)</li>
 
+<ul><li>This web application uses Unsplash for its image source(s)</li>
+</ul>
+</ul>
 
 [Google Fonts](https://fonts.google.com)</li>
 

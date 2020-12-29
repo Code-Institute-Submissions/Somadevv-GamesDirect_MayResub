@@ -4,23 +4,60 @@
   padding: 0;
 }
 body {
+  width: 100vh;
+  height: 100vw;
   /* Add global vars for fonts/colors */
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   background-color: rgba(216, 216, 216, 0.945);
+  margin: 0;
+  padding: 0;
 
+}
+#navbar-container {
+  float: right;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 20;
+  
 }
 .container-fluid{
   position: relative;
   margin: 0;
   padding: 0;
 }
-.btn {
-  border-radius: 1rem;
-  background-color: transparent;
-  border: 1px solid #fe4066;
+
+.intro-container {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  padding-top: 4rem;
+  height: 5rem;
+  width: 100vw;
+ 
+}
+
+.card-container {
+  position: absolute;
+  text-align: center;
+  height: auto;
+  width: 100vw;
+
 }
 /* ----------------------------------------GLOBAL CLASSES */
+#hr-update {
+  position: relative;
+  width: 17.5rem;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: .5rem;
+  margin-block-end: .5rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  text-align: center;
+}
 .font-weight-100 {
   font-weight: 100;
 }
@@ -60,20 +97,19 @@ body {
   background-color: #fe4066; 
 }
 
-
-/* ----------------------------------------BUTTONS */
-.btn-info:hover {
-  color: white;
+.btn {
+  border-radius: 1rem;
   background-color: transparent;
-  transform: scale(1.05);
-  transition: ease-in-out 75ms;
+  border: 1px solid #fe4066;
 }
+/* ----------------------------------------BUTTONS */
+
 .btn:hover {
   color: white;
   background-color: transparent;
-  transform: scale(1.05);
+  transform: scale(1.06);
   border: 1px solid #fe4066;
-  transition: ease-in-out 75ms;
+  transition: ease-in-out 350ms;
 }
 #logo:hover {
   transform: scale(1.08);
@@ -82,14 +118,6 @@ body {
 }
 
 /* ----------------------------------------NAVIGATION & LOGO */
-#navbar-container {
-  float: right;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 20;
-  
-}
 
 .navbar-toggler {
   border: 0;
@@ -117,8 +145,8 @@ body {
 /* ----------------------------------------HERO IMAGE */
 #hero-image {
   position: absolute;
-  height: 75vh;
-  width: 105vw;
+  height: 25rem;
+  width: 100vw;
   top: 0;
   background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.5)),url(/assets/images/hero-image.png);
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
@@ -129,14 +157,11 @@ body {
 
 
 /* ----------------------------------------INTRODUCTION */
-.intro-container {
-  position: relative;
-  text-align: center;
-}
+
 .intro-title {
-  margin-top: 5rem;
-  font-size: 1.5rem;
-  font-weight: 400;
+  position: relative;
+  font-size: 1rem;
+  
 
 }
 .intro-description{
@@ -148,13 +173,7 @@ body {
 
 /* ----------------------------------------FEATURE SECTION */
 
-.features-container {
-  padding-top: 5.5rem;
-  margin-top: 15rem;
 
-  margin-bottom: 2.5rem;
-  height: auto;
-}
 .features {
   margin-bottom: 5rem;
   text-align: center;
@@ -164,31 +183,38 @@ body {
 
 }
 /* ----------------------------------------MAIN CONTENT (CARDS) */
-.card-container {
- 
-  position: relative;
-  text-align: center;
-  height: auto;
-  width: 100vw;
 
-}
-.card {
-  
-  height: auto;
-}
 .card-body {
   
   position: absolute;
-  padding-top: 15%;
+  padding-top: 7rem;
 }
-.card-image-cover {
+#featured-image1 {
   
   width: 100vw;
-  height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)),url(/assets/images/hero-image.png);
+  height: 25rem;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)),url(/assets/images/CSGO.png);
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: 60% 80%;
+}
+#featured-image2 {
+  
+  width: 100vw;
+  height: 25rem;
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .5)),url(/assets/images/diablo4.png);
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.features-container {
+  position: relative;
+  top: 17.5rem;
+  margin-bottom: 15rem;
+  height: 50rem;
+  width: 100vw;
 }
 
 /* ----------------------------------------FOOTER */
@@ -196,53 +222,49 @@ body {
 
 /* ----------------------------------------MEDIA QUERIES */
 /* -- Mobile -- */
+
 @media (min-width: 480px){
-
-  .intro-container {
-   margin-bottom: 12vh;
-  }
-  #hero-image {
-    position: absolute;
-    height: 75vh;
-    width: 100vw;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.5)),url(/assets/images/hero-image.png);
-      box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  
-  }
-
+  .features-container {
+    position: relative;
+    top: 17.5rem;
+    height: 50rem;
 
 }
-/* ----------------------------------------MEDIA QUERIES */
-/* -- Mobile -- */
-@media (min-width: 480px){
-.card-image-cover{
+.card-image {
+  margin-bottom: 2.5rem;
+  width: 77vw;
+  background-size: 100% 100%;
 
 }
-
 }
 
 /* -- Tablet -- */
 @media (min-width: 768px){
+  .features-container {
+    margin-bottom: 27.5rem;
+    height: 40rem;
 
-  .card-image-cover{
- 
-    }
-
-  
+}
 }
 
 /* -- Desktop -- */
-@media (min-width: 1200px){
-.card-image-cover {
-  width: 35vw;
+@media (min-width: 990px){
+
+  .features-container {
+    margin-bottom: 27.5rem;
+    height: 5rem;
+
+
 }
-.features-container {
- 
-  margin-top: 25rem;
+.card-image {
+  margin-bottom: 2.5rem;
+  width: 50vw;
+  height: 50vh;
+  background-size: 100% 100%;
+  
+
 }
-}
+
+} 
 
 
