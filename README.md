@@ -1,5 +1,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;![Logo](assets/images/logo_white.png)
 
+# GAMES DIRECT
 ---
 
 ## Table of Contents
