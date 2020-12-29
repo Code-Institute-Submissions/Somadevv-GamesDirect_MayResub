@@ -73,9 +73,10 @@ body {
 
 /* ----------------------------------------BUTTONS */
 .btn-info:hover {
-  background-color: var(--bg-main);
+  color: white;
+  background-color: transparent;
   transform: scale(1.05);
-  box-shadow: 0px 0px 10px #fe4066;
+
   transition: ease-in-out 75ms;
 }
 #logo:hover {
@@ -239,7 +240,9 @@ body {
 
 /* -- Desktop -- */
 @media (min-width: 1200px){
-
+.card-image-cover {
+  width: 35vw;
+}
 
 }
 
