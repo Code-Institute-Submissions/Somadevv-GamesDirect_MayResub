@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -21,9 +22,9 @@
   <body>
   <!------------------ NAVIGATION BAR/LOGO ------------------>
    
-      
-       <div class="cta-container">
-        <p class="cta-title text-white">Test</p>
+     
+       <div class="intro-container">
+        <p class="intro-title text-white">Test</p>
     </div>
       <header>
         <div id="navbar-container">
@@ -50,60 +51,83 @@
         </header>
          <!------------------ HERO-IMAGE ------------------>
         <div id="hero-image"></div>
-             <!------------------CALL TO ACTION ------------------>
-        <div class="cta-container">
-          <p class="cta-title text-white ">Browse</p>
-          <p class="cta-description text-white ">Yeahh</p>
-          <button class="btn btn-info bg-main text-white rmv-border">More Info</button>
+         <!------------------MAIN SECTION ------------------>
+
+
+         <!------------------ INTRO SECTION ------------------>
+        <div class="intro-container">
+          <p class="intro-title text-white">This is a Placeholder</p>
+          <p class="intro-description text-white ">Yeahh</p>
+          <button class="btn btn-info color-main">More Info</button>
          </div>
       </header>
     
-      <!------------------MAIN SECTION ------------------>
-
-        <!------------------CARDS ------------------>
+     
+           <!------------------ CTA SECTION ------------------>
+           <div class="container-fluid">
+      <section class="features-container">
+        <div class="row">
+          
         
-        <main class="container-fluid">
-          <div class="card-wrapper">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center">
+              <div class="features">
+                
+                <i class="fas fa-star size-lg "></i><p class="size-md font-weight-500 " style="font-family: 'Poppins', sans-serif;">Game Ratings</p><hr>
+                <p class="font-weight-300">All of the games listed will display<br> their corresponding platform</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 -col-xs-12 d-flex justify-content-center">
+              <div class="features">
+                <i class="fas fa-layer-group size-lg"></i><p class="size-md font-weight-500" style="font-family: 'Poppins', sans-serif;">Platforms</p><hr>
+  
+                <p class="font-weight-300">All of the games listed will display<br> their corrisponding platform</p>
+                <i class="fab fa-xbox size-sm d-inline"></i>
+                <i class="fab fa-playstation size-sm inline"></i>
+                <i class="fas fa-desktop size-sm d-inline"></i>
+              </div>
+            </div>
+              <div class="col-lg-4 col-md-12 col-sm-12  col-xs-12 d-flex justify-content-center">
+                <div class="features">
+                 
+                  <i class="fas fa-edit size-lg"></i><p class="size-md font-weight-500" style="font-family: 'Poppins', sans-serif;">Updates</p><hr>
+                  <p class="font-weight-300">All of the games listed will display<br> their corrisponding platform</p>
+                </div>
+              </div>
+                </div>
+      </section>
+
+
+        <!-- ----------------CARDS ---------------- -->
+        
+       
+          <div class="card-container">
           <div class="row">
-            <div class="col-md-8 col-sm-12 col-xs-12 d-flex justify-content-center">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
           <div class="card">
-            <img src="/assets/images/hero-image.png" id="card-img1"class="card-img-top" alt="card image">
+            <div class="card-image-cover" alt="card image"></div>
+            
             <div class="card-body">
-              <h5 class="card-title" id="card1">Card title</h5><hr>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary bg-main">More Info</a>
+              <h5 class="card-title text-white" >Card title</h5><hr>
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary color-main">More Info</a>
             </div>
         </div>
       </div>
- 
-        <div class="col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
       <div class="card">
-        <img src="/assets/images/hero-image.png" id="card-img1" class="card-img-top" alt="card image">
+        <div class="card-image-cover" alt="card image"></div>
         <div class="card-body">
-          <h5 class="card-title" id="card2">Card title</h5><hr>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary bg-main">More Info</a>
+          <h5 class="card-title text-white" >Card title</h5><hr>
+          <p class="card-text text-white" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary color-main">More Info</a>
         </div>
-    </div>
+      </div>
   </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
-          <div class="card">
-            <img src="/assets/images/hero-image.png" class="card-img-top" alt="card image">
-            <div class="card-body">
-              <h5 class="card-title" id="card3">Card title</h5><hr>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary bg-main">More Info</a>
-            </div>
-          </div>
-        </div>
-        </div>
-        
+</div>
+
       </div>
     </main>
-
-
-
-
       <footer></footer>
 
 
