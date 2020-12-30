@@ -4,14 +4,9 @@
   padding: 0;
 }
 body {
-  width: 100vh;
-  height: 100vh;
   /* Add global vars for fonts/colors  */
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  margin: 0;
-  padding: 0;
-  
 
 }
 #navbar-container {
@@ -19,31 +14,28 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
-  z-index: 20;
+  z-index: 1;
   
 }
 .container-fluid{
-  position: relative;
   margin: 0;
   padding: 0;
 }
 
 .intro-container {
-  z-index: 2;
   position: relative;
   text-align: center;
   padding-top: 4rem;
-  height: 5rem;
-  width: 100vw;
- 
+  margin-bottom: 3rem;
 }
-
+.features-container {
+  position: relative;
+  top: 12rem;
+  height: 60rem;
+}
 .card-container {
-  position: absolute;
   text-align: center;
-  height: auto;
   width: 100vw;
-
 }
 /* ----------------------------------------GLOBAL CLASSES */
 #hr-update {
@@ -151,12 +143,12 @@ body {
 /* ----------------------------------------HERO IMAGE */
 #hero-image {
   position: absolute;
-  height: 70vh;
+  height: 40vh;
   width: 100vw;
   top: 0;
   background-image: linear-gradient(rgba(0, 0, 0, .6 ), rgba(0, 0, 0, 0.3)),url(/assets/images/hero-image.png);
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  background-size: 210% 130%;
+  background-size: 180% 110%;
   background-repeat: no-repeat;
 
 }
@@ -189,36 +181,63 @@ body {
 
 }
 /* ----------------------------------------MAIN CONTENT (CARDS) */
-
-.card-body {
-  position: absolute;
-  padding-top: 7rem;
-}
-#featured-image1 {
+#card1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/images/diablo4.png);
+  animation-delay: 2s;
   
-  width: 100vw;
-  height: 25rem;
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)),url(/assets/images/CSGO.png);
-  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-
 }
-#featured-image2 {
-  
-  width: 100vw;
-  height: 25rem;
-  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .5)),url(/assets/images/diablo4.png);
-  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-.features-container {
+.titleBefore {
   position: relative;
-  top: 17.5rem;
-  margin-bottom: 15rem;
-  height: 50rem;
+  top: 100px;
+  transition: visibility 1s, opacity 0.7s linear;
+  transition-delay: 250ms;
+
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 0.7s linear;
+  transition-delay: 250ms;
+}
+#card1:hover .titleBefore {
+  transition: visibility 1s, opacity 0.7s linear;
+  transition-delay: 250ms;
+  opacity: 0;
+}
+#card1:hover .hidden{
+  visibility: visible;
+  opacity: 1;
+
+}
+.card-body{
   width: 100vw;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  margin-bottom: 2.5rem;
+  animation-delay: 2s;
+  transition-delay: 2s;
+  background-color: transparent;
+  
+}
+#card1{
+  transition-delay: 2s;
+  width: auto;
+  height: 15rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(/assets/images/diablo4.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+#card2{
+  width: auto;
+  height: 15rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(/assets/images/CSGO.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+#featured-image2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/images/diablo4.png);
 }
 
 /* ----------------------------------------FOOTER */
@@ -229,15 +248,9 @@ body {
 
 @media (min-width: 480px){
   #hero-image {
-    position: absolute;
-    height: 70vh;
-    width: 100vw;
-    top: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.5)),url(/assets/images/hero-image.png);
-    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  
+  height: 40vh;
+  width: 100vw;
+  background-size: 180% 110%;
   }
   .features-container {
     position: relative;
@@ -265,7 +278,12 @@ body {
 
 /* -- Tablet -- */
 @media (min-width: 768px){
-  
+  #hero-image {
+    height: 65vh;
+    width: 100vw;
+    background-size: 140% 110%;
+    
+    }
   .features-container {
     margin-bottom: 27.5rem;
     height: 40rem;
@@ -293,17 +311,11 @@ body {
 @media (min-width: 990px){
 
   .features-container {
-    margin-bottom: 27.5rem;
-    height: 5rem;
-
-
 }
 #featured-image1{
-  margin-bottom: 2.5rem;
   width: 50vw;
   height: 50vh;
   background-size: 100% 100%;
-  
 
 }
 #featured-image2{
@@ -311,8 +323,6 @@ body {
   width: 50vw;
   height: 50vh;
   background-size: 100% 100%;
-  
-
 }
 
 } 
