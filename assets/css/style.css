@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   
 }
+
 .row {
   max-width: 100%;
 }
@@ -38,6 +39,9 @@ body {
   text-align: center;
   background-color: #000000;
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  
+}
+.container-fluid {
   
 }
 /* ----------------------------------------GLOBAL CLASSES */
@@ -189,17 +193,17 @@ top: 4rem;
   transition:2s;
 }
 .navbar-fixed-top.scrolled {
-  background-image: linear-gradient(45deg,  #141414 75%, #fe4066 10%);
+  background-color: #1d1d1d;
   height: 3.5rem;
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
 }
 /* ----------------------------------------HERO IMAGE */
 #hero-image {
-  height: 40vh;
+  height: 50vh;
   width: 100vw;
   position: absolute;
   top: 0;
-  background-image: linear-gradient(45deg, #141414 82%, #fe4066 0%);
+  background-color: #1d1d1d;
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
   
 }
@@ -286,7 +290,7 @@ top: 4rem;
     width: 100vw;
     position: absolute;
     top: 0;
-    background-image: linear-gradient(31deg,  #1d1d1d 55%, #fe4066 50%);
+    background-color: #1d1d1d;
     box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
     
   }
@@ -320,29 +324,15 @@ top: 4rem;
 
 /* -- Desktop -- */
 @media (min-width: 990px){
-  .nav-link {
-    float: right;
-    font-weight: 400;
-    letter-spacing: .2rem;
-    font-size: 1.5rem;
+  #logo {
+    display: none;
   }
   .navbar-nav {
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    height: 16rem;
-    background-image: linear-gradient(70deg,  #fe4066 75%, #1d1d1d 10%);
+ background-color: transparent;
   }
-  .navbar-fixed-top{
-    height: 5px;
-    transition:2s;
+  #hero-image {
+    height: 25rem;
   }
-  .navbar-fixed-top.scrolled {
-    background-image: linear-gradient(45deg,  #1d1d1d 75%, #fe4066 10%);
-    height: 3.5rem;
-    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  }
-
 #featured-image1{
   width: 50vw;
   height: 50vh;

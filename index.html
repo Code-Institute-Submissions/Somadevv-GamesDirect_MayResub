@@ -17,15 +17,13 @@
 
 <body>
   <!------------------ NAVIGATION BAR/LOGO  ------------------>
-
-
+  <div class="container-fluid" id="smoothScroll">
   <div class="intro-container">
     <p class="intro-title text-white"></p>
   </div>
   <header>
     <div id="navbar-container">
-
-      <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark">
         <a href="#home"><img src="/assets/images/logo.png" id="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,6 +46,7 @@
         </div>
       </nav>
   </header>
+
   <!------------------ HERO-IMAGE ------------------>
   <div id="hero-image"></div>
   <!------------------MAIN SECTION ------------------>
@@ -119,8 +118,8 @@
     </div>
   </section> -->
   <footer></footer>
-
-
+</div>
+</div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -131,6 +130,10 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
   <script src="./assets/scripts/script.js"></script>
+  <script src="./assets/scripts/sScroll.js"></script>
+  <script>
+    butter.init({cancelOnTouch: true});
+  </script>
 </body>
 
 </html>
