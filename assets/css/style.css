@@ -2,41 +2,32 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   /* Add global vars for fonts/colors  */
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-
+  
+}
+.container-fluid {
+  padding: 0;
 }
 #navbar-container {
   float: right;
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
   
 }
-.container-fluid{
-  margin: 0;
-  padding: 0;
-}
-
 .intro-container {
   position: relative;
   text-align: center;
-  padding-top: 4rem;
-  margin-bottom: 3rem;
+  padding-top: 2rem;
 }
-.features-container {
-  position: relative;
-  top: 12rem;
-  height: 60rem;
-}
-.card-container {
-  text-align: center;
-  width: 100vw;
-}
+
+
 /* ----------------------------------------GLOBAL CLASSES */
 #hr-update {
   position: relative;
@@ -85,7 +76,6 @@ body {
   color: #fe4066;
 }
 .bg-main {
-  
   background-color: #fe4066; 
 }
 
@@ -93,14 +83,9 @@ body {
   border-radius: 1rem;
   background-color: transparent;
   border: 1px solid #fe4066;
+  width: 7rem;
 }
 /* ----------------------------------------BUTTONS */
-.features:hover {
-  transform: scale(1.03);
-  cursor: default;
-
-  transition: ease-in-out 2 50ms;
-}
 
 .btn:hover {
   color: white;
@@ -120,6 +105,8 @@ body {
 .navbar-toggler {
   border: 0;
   margin-right: 1.25rem;
+  transition: 1s;
+  z-index: 1;
 }
 
 #logo {
@@ -128,28 +115,51 @@ body {
   width: 2.5rem;
   margin-left: 1rem;
 }
+#logo2 {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.navbar-toggler{
+  font-size: 1.5rem;
+}
+.nav-item {
+  margin-right: 3rem;
+  text-transform: uppercase;
+}
 
-.navbar-nav {
+.nav-link {
   float: right;
-  
+  font-weight: 400;
+  letter-spacing: .2rem;
+  font-size: 1.5rem;
+}
+.navbar-nav {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 16rem;
+  background-color: #141414;
+}
+
+.navbar-fixed-top{
+  height: 5px;
+  transition:2s;
 }
 .navbar-fixed-top.scrolled {
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
-  background-repeat: no-repeat;
-  background-color: rgb(29, 29, 29) !important;
-  transition: background-color 150ms linear;
+  background-color: #1d1d1d;
+  height: 3.5rem;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
 }
 /* ----------------------------------------HERO IMAGE */
 #hero-image {
-  position: absolute;
-  height: 40vh;
+  height: 50vh;
   width: 100vw;
+  position: absolute;
   top: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, .6 ), rgba(0, 0, 0, 0.3)),url(/assets/images/hero-image.png);
+  background-color: #1d1d1d;
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  background-size: 180% 110%;
-  background-repeat: no-repeat;
 
 }
 
@@ -159,8 +169,6 @@ body {
 .intro-title {
   position: relative;
   font-size: 1rem;
-  
-
 }
 .intro-description{
   font-size: 1em;
@@ -171,91 +179,53 @@ body {
 
 /* ----------------------------------------FEATURE SECTION */
 
+.features-container {
+  position: relative;
+  height: auto;
+
+}
 
 .features {
-  margin-bottom: 5rem;
+  position: relative;
   text-align: center;
-  width: auto;
-  height: auto;
- 
-
 }
 /* ----------------------------------------MAIN CONTENT (CARDS) */
-#card1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/images/diablo4.png);
-  animation-delay: 2s;
-  
-}
-.titleBefore {
-  position: relative;
-  top: 100px;
-  transition: visibility 1s, opacity 0.7s linear;
-  transition-delay: 250ms;
-
-}
-.hidden {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 1s, opacity 0.7s linear;
-  transition-delay: 250ms;
-}
-#card1:hover .titleBefore {
-  transition: visibility 1s, opacity 0.7s linear;
-  transition-delay: 250ms;
-  opacity: 0;
-}
-#card1:hover .hidden{
-  visibility: visible;
-  opacity: 1;
-
-}
-.card-body{
-  width: 100vw;
-  height: auto;
-  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  margin-bottom: 2.5rem;
-  animation-delay: 2s;
-  transition-delay: 2s;
+.zip-container {
   background-color: transparent;
-  
-}
-#card1{
-  transition-delay: 2s;
-  width: auto;
-  height: 15rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(/assets/images/diablo4.png);
-  background-size: 100% 100%;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(/assets/images/card-bg.jpg);
   background-repeat: no-repeat;
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  height: 60vh;
   
 }
-#card2{
-  width: auto;
-  height: 15rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(/assets/images/CSGO.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  
+.card {
+  background: transparent;
 }
-#featured-image2:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/images/diablo4.png);
+
+#zip {
+  align-self: center;
 }
 
 /* ----------------------------------------FOOTER */
-.footer {}
+footer {
+width: auto;
+height: 200px;
+background-color: #504e4e;
+
+
+}
 
 /* ----------------------------------------MEDIA QUERIES */
 /* -- Mobile -- */
 
 @media (min-width: 480px){
-  #hero-image {
-  height: 40vh;
-  width: 100vw;
-  background-size: 180% 110%;
-  }
+
   .features-container {
     position: relative;
     top: 17.5rem;
-    height: 50rem;
+    height: auto;
+    margin-bottom: 22.5rem;
 
 }
 #featured-image1{
@@ -263,7 +233,6 @@ body {
   width: 100vw;
   height: 50vh;
   background-size: 100% 100%;
-  
 
 }
 #featured-image2{
@@ -271,22 +240,31 @@ body {
   width: 100vw;
   height: 50vh;
   background-size: 100% 100%;
-  
 
 }
+
 }
 
 /* -- Tablet -- */
 @media (min-width: 768px){
   #hero-image {
-    height: 65vh;
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    background-color: #1d1d1d;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    
+  }
+  #hero-image {
+    height: 40vh;
     width: 100vw;
     background-size: 140% 110%;
     
     }
   .features-container {
     margin-bottom: 27.5rem;
-    height: 40rem;
+    height: auto;
 
 }
 #featured-image1{
@@ -294,7 +272,6 @@ body {
   width: 75vw;
   height: 50vh;
   background-size: 100% 100%;
-  
 
 }
 #featured-image2{
@@ -302,16 +279,21 @@ body {
   width: 75vw;
   height: 50vh;
   background-size: 100% 100%;
-  
 
 }
 }
 
 /* -- Desktop -- */
 @media (min-width: 990px){
-
-  .features-container {
-}
+  #logo {
+    display: none;
+  }
+  .navbar-nav {
+ background-color: transparent;
+  }
+  #hero-image {
+    height: 25rem;
+  }
 #featured-image1{
   width: 50vw;
   height: 50vh;
@@ -324,7 +306,4 @@ body {
   height: 50vh;
   background-size: 100% 100%;
 }
-
 } 
-
-
