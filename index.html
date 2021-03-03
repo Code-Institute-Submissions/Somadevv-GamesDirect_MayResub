@@ -14,25 +14,31 @@
   <title>GamesDirect</title>
 </head>
 
-
 <body>
-  <!------------------ NAVIGATION BAR/LOGO  ------------------>
+  <!------------------ HERO & INTRO ------------------>
   <div class="container-fluid">
-    <div class="intro-container">
-      <p class="intro-title text-white"></p>
+    <div id="hero-image">
+      <div class="intro-container">
+        <p class="intro-title text-white font-weight-500">Title</p>
+        <p class="intro-description text-white font-weight-100">Placeholder text</p>
+        <a href="#" class="btn btn-primary color-main">More Info</a>
+      </div>
     </div>
 
-    <header>
-      <div id="navbar-container">
-        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark">
-          <a href="#home"><img src="/assets/images/logo.png" id="logo"></a>
+<!------------------ NAV ------------------>
+      <nav class="navbar-container">
+        <div class="navbar navbar-fixed-top navbar-expand-lg navbar-dark">
+          <a href="index.html"><img src="/assets/images/logo_wg.png" id="logo"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
+            <a href="index.html"><img src="/assets/images/logo_wg.png" id="logo2"></a>
             <ul class="navbar-nav">
-              <a href="#home"><img src="/assets/images/logo.png" id="logo2"></a>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="toprated.html">> Home </a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="toprated.html">Top rated</a>
               </li>
@@ -45,32 +51,13 @@
             </ul>
           </div>
         </nav>
-    </header>
-
-    <!------------------ HERO-IMAGE ------------------>
-    <div id="hero-image"></div>
-    <!------------------MAIN SECTION ------------------>
 
 
-    <!------------------ INTRO SECTION ------------------>
-    <div class="intro-container">
-      <p class="intro-title text-white font-weight-500">Title</p>
-      <p class="intro-description text-white font-weight-100">Placeholder text</p>
-      <a href="#" class="btn btn-primary color-main">More Info</a>
-    </div>
-
-    </header>
-
-
-    <!------------------ CTA SECTION ------------------>
-
+    <!------------------ FEATURES ------------------>
     <section class="features-container">
       <div class="row">
-
-
         <div class="col-lg-4 col-sm-12 col-sm-12 d-flex justify-content-center">
           <div class="features">
-
             <i class="fas fa-star size-lg color-main"></i>
             <p class="size-md font-weight-500" style="font-family: 'Poppins', sans-serif;">Features & Ratings</p>
             <hr>
@@ -80,7 +67,6 @@
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
           <div class="features">
-
             <i class="fas fa-layer-group size-lg color-main"></i>
             <p class="size-md font-weight-500" style="font-family: 'Poppins', sans-serif;">Multi Platform</p>
             <hr>
@@ -98,41 +84,48 @@
         </div>
       </div>
   </div>
-  
   </section>
-
-
   <!------------------CARDS ------------------>
   <main class="zip-container">
+    <div class="cropper"></div>
     <div class="row">
-      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center" id="content-div">
-        <div class="card">
-          <h5 class="card-title text-white" id="card-title">FEATURED GAMES FOR <span class="color-main">2021</span></h5>
-          <p class="card-text text-white" id="card-desc">Some quick example text to build on the card title and make up the bulk of
-            the card's content.</p>
-          <a href="#" class="btn btn-primary color-main" id="zip">More Info</a>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="card-featured">
+          <div class="card-content">
+            <h5 class="card-title text-white" id="card-title">FEATURED GAMES FOR <span class="color-main">2021</span>
+            </h5>
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+            <a href="#" class="btn btn-primary color-main" id="zip">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="card-toprated">
+          <div class="card-content">
+            <h5 class="card-title text-white" id="card-title">TOP RATED GAMES FOR <span class="color-main">2021</span>
+            </h5>
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+            <a href="#" class="btn btn-primary color-main" id="zip">More Info</a>
+          </div>
         </div>
       </div>
     </div>
 
-    </div>
-    </div>
   </main>
-  <footer>
-    <p class="size-lg">Footer</p>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script src="./assets/scripts/script.js"></script>
-  <script src="./assets/scripts/sScroll.js"></script>
-
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="./assets/scripts/script.js"></script>
+<script src="./assets/scripts/butter.js"></script>
+<script>
+  butter.init({ cancelOnTouch: true });
+</script>
 
 </html>

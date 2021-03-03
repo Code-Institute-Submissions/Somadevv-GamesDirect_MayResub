@@ -190,6 +190,13 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 <ul><li>Git is used as a version control software to push code to the GitHub repository where the source code is located</li>
 </ul>
 </ul>
+<ul><li>
+
+[cssscript](https://www.cssscript.com/smooth-momentum-scrolling-butter//)</li>
+
+<ul><li>The code behind the smooth scrolling animation was used from cssscript</li>
+</ul>
+</ul>
 
 <ul><li>
 
