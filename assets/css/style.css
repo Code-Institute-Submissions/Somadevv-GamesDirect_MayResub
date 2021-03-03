@@ -10,14 +10,8 @@ body {
   font-size: 16px;
   
 }
-<<<<<<< HEAD
-
-.row {
-  max-width: 100%;
-=======
 .container-fluid {
   padding: 0;
->>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
 }
 #navbar-container {
   float: right;
@@ -31,27 +25,6 @@ body {
   position: relative;
   text-align: center;
   padding-top: 2rem;
-<<<<<<< HEAD
-}
-.features-container {
-  position: relative;
-  top: 12rem;
-  height: 60rem;
-
-}
-.card-container {
-  position: relative;
-  height: 25rem;
-  width: 100vw;
-  text-align: center;
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
-  
-}
-.container-fluid {
-  
-=======
->>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
 }
 
 
@@ -155,35 +128,7 @@ body {
   margin-right: 3rem;
   text-transform: uppercase;
 }
-<<<<<<< HEAD
-.nav-cut {
-  color: #fe4066;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  word-spacing: .3rem;
-  letter-spacing: .4rem;
-  font-size: 1.65rem;
-}
-/* #link1 {
-position: absolute;
-right: 8rem;
-top: 4rem;
-}
-#link2 {
-  position: relative;
-  top: 4rem;
-  right: 5rem;
 
-}
-#link3 {
-  position: absolute;
-  top: 11rem;
-  right: 2rem;
-} */
-
-=======
-
->>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
 .nav-link {
   float: right;
   font-weight: 400;
@@ -215,11 +160,7 @@ top: 4rem;
   top: 0;
   background-color: #1d1d1d;
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
 }
 
 
@@ -246,31 +187,6 @@ top: 4rem;
 
 .features {
   position: relative;
-<<<<<<< HEAD
-  margin-bottom: 4rem;
-  text-align: center;
-}
-/* ----------------------------------------MAIN CONTENT (CARDS) */
-
-
-.card-body{
-  width: 100vw;
-  height: auto;
-  
-}
-#card1{
-  
-  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  width: auto;
-  height: 15rem;
-  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(/assets/images/diablo4.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  
-}
-
-
-=======
   text-align: center;
 }
 /* ----------------------------------------MAIN CONTENT (CARDS) */
@@ -312,7 +228,6 @@ height: 200px;
 background-color: #1d1d1d;
 
 }
->>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
 
 
 /* ----------------------------------------MEDIA QUERIES */
@@ -405,9 +320,4 @@ background-color: #1d1d1d;
   height: 50vh;
   background-size: 100% 100%;
 }
-<<<<<<< HEAD
-
 } 
-=======
-} 
->>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
