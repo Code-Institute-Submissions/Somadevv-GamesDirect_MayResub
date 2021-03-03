@@ -192,7 +192,7 @@ body {
 /* ----------------------------------------MAIN CONTENT (CARDS) */
 .zip-container {
   background-color: transparent;
-  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(/assets/images/card-bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),url(/assets/images/card-bg.jpg);
   background-repeat: no-repeat;
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -201,20 +201,34 @@ body {
 }
 .card {
   background: transparent;
+  margin-top: 17.5%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
 }
-
+#card-title {
+  position: relative;
+  font-size: 2rem;
+}
+#card-desc {
+  position: relative;
+  left: 2rem;
+  width: 22rem;
+}
 #zip {
   align-self: center;
 }
 
 /* ----------------------------------------FOOTER */
 footer {
+  text-align: center;
+  color: #fe4066;
 width: auto;
 height: 200px;
-background-color: #504e4e;
-
+background-color: #1d1d1d;
 
 }
+
 
 /* ----------------------------------------MEDIA QUERIES */
 /* -- Mobile -- */
