@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   /* Add global vars for fonts/colors  */
@@ -9,9 +10,14 @@ body {
   font-size: 16px;
   
 }
+<<<<<<< HEAD
 
 .row {
   max-width: 100%;
+=======
+.container-fluid {
+  padding: 0;
+>>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
 }
 #navbar-container {
   float: right;
@@ -25,6 +31,7 @@ body {
   position: relative;
   text-align: center;
   padding-top: 2rem;
+<<<<<<< HEAD
 }
 .features-container {
   position: relative;
@@ -43,7 +50,11 @@ body {
 }
 .container-fluid {
   
+=======
+>>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
 }
+
+
 /* ----------------------------------------GLOBAL CLASSES */
 #hr-update {
   position: relative;
@@ -99,14 +110,9 @@ body {
   border-radius: 1rem;
   background-color: transparent;
   border: 1px solid #fe4066;
+  width: 7rem;
 }
 /* ----------------------------------------BUTTONS */
-.features:hover {
-  transform: scale(1.03);
-  cursor: default;
-
-  transition: ease-in-out 2 50ms;
-}
 
 .btn:hover {
   color: white;
@@ -149,6 +155,7 @@ body {
   margin-right: 3rem;
   text-transform: uppercase;
 }
+<<<<<<< HEAD
 .nav-cut {
   color: #fe4066;
   font-family: "Poppins", sans-serif;
@@ -174,6 +181,9 @@ top: 4rem;
   right: 2rem;
 } */
 
+=======
+
+>>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
 .nav-link {
   float: right;
   font-weight: 400;
@@ -205,7 +215,11 @@ top: 4rem;
   top: 0;
   background-color: #1d1d1d;
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
 }
 
 
@@ -224,9 +238,15 @@ top: 4rem;
 
 /* ----------------------------------------FEATURE SECTION */
 
+.features-container {
+  position: relative;
+  height: auto;
+
+}
 
 .features {
   position: relative;
+<<<<<<< HEAD
   margin-bottom: 4rem;
   text-align: center;
 }
@@ -250,9 +270,50 @@ top: 4rem;
 }
 
 
+=======
+  text-align: center;
+}
+/* ----------------------------------------MAIN CONTENT (CARDS) */
+.zip-container {
+  background-color: transparent;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),url(/assets/images/card-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  height: 60vh;
+  
+}
+.card {
+  background: transparent;
+  margin-top: 17.5%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#card-title {
+  position: relative;
+  font-size: 2rem;
+}
+#card-desc {
+  position: relative;
+  left: 2rem;
+  width: 22rem;
+}
+#zip {
+  align-self: center;
+}
 
 /* ----------------------------------------FOOTER */
-.footer {}
+footer {
+  text-align: center;
+  color: #fe4066;
+width: auto;
+height: 200px;
+background-color: #1d1d1d;
+
+}
+>>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e
+
 
 /* ----------------------------------------MEDIA QUERIES */
 /* -- Mobile -- */
@@ -262,7 +323,8 @@ top: 4rem;
   .features-container {
     position: relative;
     top: 17.5rem;
-    height: 50rem;
+    height: auto;
+    margin-bottom: 22.5rem;
 
 }
 #featured-image1{
@@ -270,7 +332,6 @@ top: 4rem;
   width: 100vw;
   height: 50vh;
   background-size: 100% 100%;
-  
 
 }
 #featured-image2{
@@ -278,9 +339,9 @@ top: 4rem;
   width: 100vw;
   height: 50vh;
   background-size: 100% 100%;
-  
 
 }
+
 }
 
 /* -- Tablet -- */
@@ -302,7 +363,7 @@ top: 4rem;
     }
   .features-container {
     margin-bottom: 27.5rem;
-    height: 40rem;
+    height: auto;
 
 }
 #featured-image1{
@@ -317,7 +378,6 @@ top: 4rem;
   width: 75vw;
   height: 50vh;
   background-size: 100% 100%;
-  
 
 }
 }
@@ -345,5 +405,9 @@ top: 4rem;
   height: 50vh;
   background-size: 100% 100%;
 }
+<<<<<<< HEAD
 
 } 
+=======
+} 
+>>>>>>> 7d9dd7e68e682a86dd8a9647a81a44fc2c90e47e

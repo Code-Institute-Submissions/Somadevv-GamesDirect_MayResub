@@ -1,4 +1,4 @@
-&nbsp;&nbsp;&nbsp;&nbsp;![Logo](assets/images/logo_white.png)
+&nbsp;&nbsp;&nbsp;&nbsp;![Logo](assets/images/logo.png)
 
 # GAMES DIRECT
 ---
