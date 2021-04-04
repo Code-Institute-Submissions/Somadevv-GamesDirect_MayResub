@@ -127,7 +127,7 @@ body {
   margin-right: 0rem;
   margin-top: .5rem;
   transition: width 1s ease;
-  font-size: 1rem;
+  font-size: 1.5rem;
   z-index: 1;
 }
 .nav-link:hover {
@@ -136,7 +136,7 @@ body {
 }
 .nav-link {
   text-transform: uppercase;
-  float: right;
+  float: left;
   font-weight: 400;
   letter-spacing: .2rem;
   font-size: 1rem;
@@ -149,10 +149,10 @@ body {
   transition:1.25s;
 }
 .navbar-fixed-top.scrolled {
-  background-color: rgb(20, 20, 20);
-  height: 6rem;
+  background-color: rgb(18, 18, 19);
+  height: 5rem;
   width: 100vw;
-  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px; */
 
 }
 
@@ -162,7 +162,7 @@ body {
   top: 0;
   width: 100vw;
   height: 55vh;
-  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),url(/assets/images/hero-image.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(/assets/images/hero-image.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -171,7 +171,9 @@ body {
 
 /* -----------------------INTRODUCTION */
 .intro-container {
-  width: auto;
+  padding-top: 6rem;
+  margin: auto;
+  width: 50%;
   height: auto;
   text-align: center;
 }
@@ -187,7 +189,7 @@ body {
 /* -----------------------FEATURES */
 .features-container {
   height: auto;
-  margin-bottom: 20rem;
+  margin-top: 5rem;
   text-align: center;
 
 }
@@ -229,7 +231,7 @@ body {
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   height: 40vh;
-  width: 46vw;
+  width: auto;
   margin-right: 3rem;
   border-radius: .5rem;
 }
@@ -288,7 +290,7 @@ body {
  
 
   .features-container {
-    margin-bottom: 27.5rem;
+    margin-bottom: 7.5rem;
     height: auto;
 
 }
