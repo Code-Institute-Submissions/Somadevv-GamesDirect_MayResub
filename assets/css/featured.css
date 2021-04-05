@@ -64,3 +64,32 @@ body {
       background-color: red;
 
   }
+
+
+
+
+  /* ----------------------------------------MEDIA QUERIES */
+/* -- Mobile -- */
+
+@media (min-width: 480px){
+
+}
+
+/* -- Tablet -- */
+@media (min-width: 768px){
+
+} 
+
+/* -- Desktop -- */
+@media (min-width: 990px){
+  .card {
+    width: 35vw;
+    height: auto;
+    border: none;
+    
+  }
+  .card-image {
+    height: 100%;
+  }
+
+} 

@@ -9,8 +9,6 @@ $(function () {
     
   });
 
-
-
   function toggleFps() {
     var x = document.querySelector(".fps-container");
     var displaySetting = x.style.display;

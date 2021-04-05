@@ -17,13 +17,26 @@
 <body>
   <!------------------ HERO & INTRO ------------------>
   <div class="container-fluid">
-    <div id="hero-image">
-      <div class="intro-container">
-        <p class="intro-title text-white font-weight-500">Title</p>
-        <p class="intro-description text-white font-weight-100">Placeholder text</p>
-        <a href="#" class="btn btn-primary color-main">More Info</a>
-      </div>
+    <div class="slider hero-image">
+      <img src="/assets/images/banner1.jpg" alt="" >
+      <img src="/assets/images/banner2.jpg" alt="">
+      <img src="/assets/images/banner3.jpg" alt="">
+      <img src="/assets/images/banner4.jpg" alt="">
     </div>
+    <div class="col-sm">
+    <div class="row">
+    <div class="box-overlay">
+      <p class="intro-title  font-weight-500">Want to see our top list of rated games?</p>
+      <p class="intro-description  font-weight-100">Want to see our top list of rated games?</p>
+      <a href="#" class="btn btn-primary color-main">More Info</a>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+  
+
+ 
 
 
 <!------------------ NAV ------------------>
@@ -87,7 +100,7 @@
   </div>
   </section>
   <!------------------CARDS ------------------>
-  <main class="zip-container">
+  <!-- <main class="zip-container">
     <div class="cropper"></div>
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -114,7 +127,7 @@
       </div>
     </div>
 
-  </main>
+  </main> -->
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -124,4 +137,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="./assets/scripts/script.js"></script>
+<script src="/assets/scripts/slider.js"></script>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', () => {
+      let slider = new Slider(document.querySelector('.slider'), 3000);
+  });
+</script>
 </html>

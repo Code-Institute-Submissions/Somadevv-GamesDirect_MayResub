@@ -1,16 +1,35 @@
+body {
+  height: 2000px
+}
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .7)) no-repeat fixed;
+  animation: 12s autoplay3 infinite ease-in-out
+}
 
-
+.genres-container {
+}
 .genre-image  {
-  background: url(/assets/images/fps.png) no-repeat center center;
   background-size: cover;
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   margin-right: 1rem;
+  text-align: center;
 
 }
+ .fps-image,.rpg-image, .mmorpg-image {
+  width: 5rem;
+  height: 5rem;
+  color: #fe4066;
+}
+
 .fps-container,.rpg-container,.mmorpg-container {
   width: 100vw;
   height: 1000px;
   display: none;
 
 }
+
+
+ 
+  
+  
