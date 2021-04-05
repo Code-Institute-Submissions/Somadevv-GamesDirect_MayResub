@@ -4,6 +4,7 @@ $(function () {
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
       document.querySelector(".navbar-nav").style.marginTop = "0";
       document.querySelector(".navbar-nav").style.paddingTop = "1rem";
-     
+      
     });
+    
   });

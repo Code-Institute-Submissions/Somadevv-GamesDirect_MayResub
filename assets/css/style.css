@@ -141,28 +141,33 @@ body {
   letter-spacing: .2rem;
   font-size: 1rem;
   margin: .15rem 1rem;
-
+ 
 }
 
 .navbar-fixed-top{
   height:2rem;
   transition:1.25s;
+  transition-delay: 1.3s;
+ 
 }
 .navbar-fixed-top.scrolled {
-  background-color: rgb(18, 18, 19);
+  background-color: rgb(13, 13, 14);
   height: 5rem;
   width: 100vw;
   /* box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px; */
 
 }
-
+.mySlides {
+  transition: 1s;
+  animation-delay: 1s;
+}
 /* -----------------------HERO IMAGE */
 #hero-image {
   position: relative;
   top: 0;
   width: 100vw;
   height: 55vh;
-  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(/assets/images/hero-image.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url(/assets/images/banner3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -205,15 +210,7 @@ body {
   
   
 }
-.cropper {
-  /* position: absolute;
-  left: 32%;
-  width: 70rem;
-  height: 20rem;
-  background-color: rgb(255, 255, 255);
-  transform: rotate(50deg);
-  z-index: 0; */
-}
+
 .card-content {
   text-align: center;
 }
