@@ -8,3 +8,42 @@ $(function () {
     });
     
   });
+
+
+
+  function toggleFps() {
+    var x = document.querySelector(".fps-container");
+    var displaySetting = x.style.display;
+    if (displaySetting == 'none') {
+      x.style.display = 'block';
+    }
+    else {
+      x.style.display = 'none';
+
+    }
+  }
+  function toggleRpg() {
+    var x = document.querySelector(".rpg-container");
+    var displaySetting = x.style.display;
+    if (displaySetting == 'none') {
+      x.style.display = 'block';
+    }
+    else {
+      x.style.display = 'none';
+
+    }
+  }
+
+  function toggleMmorpg() {
+    var x = document.querySelector(".mmorpg-container");
+    var displaySetting = x.style.display;
+    if (displaySetting == 'none') {
+      x.style.display = 'block';
+    }
+    else {
+      x.style.display = 'none';
+
+    }
+  }
+
+
