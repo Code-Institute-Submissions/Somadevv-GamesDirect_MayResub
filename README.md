@@ -151,17 +151,6 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 ---
 
-# Features-Left-to-Implement
-
-<ul>
-<li>Add a Sign up & Sign in function to offer user notifications on updates</li>
-<li>Add a catergory to Top rated section to keep a more organized web application</li>
-<li>Add a search function so users can easily locate specific queries</li>
-<li>Add a compare function that allows users to compare products</li>
-<li>Add a in browser activity log showing what update/products have been pushed to the web application</li>
-</ul>
-
----
 
 # FEATURES
 
@@ -174,16 +163,15 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 </ul>
 
-
-## Features to Implement
+# Features to Implement
 
 <ul>
-<li>Add a Sign up & Sign in function to offer users notifications on updates</li>
-<li>Add a catergory to Top rated section to keep a more organized page</li>
-<li>Add a search function so users can easily locate specific search criteria's</li>
+<li>Add a Sign up & Sign in function to offer user notifications on updates</li>
+<li>Add a catergory to Top rated section to keep a more organized web application</li>
+<li>Add a search function so users can easily locate specific queries</li>
+<li>Add a compare function that allows users to compare products</li>
 <li>Add a in browser activity log showing what update/products have been pushed to the web application</li>
 </ul>
-
 
 
 # TECHNOLOGIES
