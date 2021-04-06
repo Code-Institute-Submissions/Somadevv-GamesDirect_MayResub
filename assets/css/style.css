@@ -89,10 +89,7 @@ body {
   width: 17.5rem;
   display: block;
   unicode-bidi: isolate;
-  margin-block-start: .5rem;
-  margin-block-end: .5rem;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+
   overflow: hidden;
   text-align: center;
 }

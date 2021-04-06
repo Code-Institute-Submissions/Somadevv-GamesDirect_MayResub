@@ -163,6 +163,29 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 ---
 
+# FEATURES
+
+## Existing Features
+<ul>
+<li>Featured page - This section on the website to promote this years most featured games</li>
+<li>Top Rated page - This section on the website to present the highest rated games to the user so they can easily compare multi genres of games with useful information attatched to them</li>
+<li>Contact Form - This can be filled in on the contact.html page and used in order to contact the support team with any queries users may have</li>
+<li>Automatic Carousel - This can found on the index.html page, this was implemented for cosmetics/design purposes</li>
+
+</ul>
+
+
+## Features to Implement
+
+<ul>
+<li>Add a Sign up & Sign in function to offer users notifications on updates</li>
+<li>Add a catergory to Top rated section to keep a more organized page</li>
+<li>Add a search function so users can easily locate specific search criteria's</li>
+<li>Add a in browser activity log showing what update/products have been pushed to the web application</li>
+</ul>
+
+
+
 # TECHNOLOGIES
 <ul><li>HTML</li>
 <ul><li>This web application uses HTML (Hyper text markup langauge) as the main language to structure each web page</li>

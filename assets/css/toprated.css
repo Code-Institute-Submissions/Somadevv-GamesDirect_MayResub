@@ -6,7 +6,7 @@ body {
 .hero-image {
   position: relative;
   background: url('/assets/images/top-rated-hero.png') fixed no-repeat center;
-  background-position: contain;
+
   filter: brightness(20%);
   height: 55vh;
   margin-bottom: 2.5rem;
