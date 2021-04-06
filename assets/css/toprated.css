@@ -1,34 +1,108 @@
 body {
-  height: 2000px
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
 }
 .hero-image {
-  background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .7)) no-repeat fixed;
-  animation: 12s autoplay3 infinite ease-in-out
+  position: relative;
+  background: url('/assets/images/top-rated-hero.png') fixed no-repeat center;
+  background-position: contain;
+  filter: brightness(20%);
+  height: 55vh;
+  margin-bottom: 2.5rem;
+}
+
+.genres-intro {
+  top: 0;
+  padding-top: 20vh;
+  position: absolute;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  
 }
 
 .genres-container {
+  width: 100vw;
+  top: 3rem;
+  margin-bottom: 5rem;
+  text-align: center;
 }
 .genre-image  {
+  margin: auto 0;
   background-size: cover;
-  width: 300px;
-  height: 300px;
-  margin-right: 1rem;
+  width: 25rem;
+  height: auto;
+  margin-bottom: 2.5vh;
   text-align: center;
+  cursor: default;
+  display: inline-block;
 
 }
+.genre-image:hover {
+  animation-delay: 1s;
+  transform: scale(1.1);
+}
+.card:nth-child(1) {
+  margin-top: 3rem;
+}
+.card-body {
+  height: auto;
+
+}
+.card-img-top {
+  width: 100%;
+  height: 12.5rem;
+}
+.card-title {
+  display: inline-block;
+
+}
+.float-right {
+  float: right;
+}
+
+
  .fps-image,.rpg-image, .mmorpg-image {
   width: 5rem;
-  height: 5rem;
+  height: auto;
   color: #fe4066;
+
 }
 
-.fps-container,.rpg-container,.mmorpg-container {
+.rpg-container,.mmorpg-container {
   width: 100vw;
-  height: 1000px;
+  height: auto;
   display: none;
+  margin-bottom: 5rem;
+ 
+}
+.fps-container {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 5rem;
+}
+
+
+
+ /* ----------------------------------------MEDIA QUERIES */
+/* -- Mobile -- */
+
+@media (min-width: 480px){
 
 }
 
+/* -- Tablet -- */
+@media (min-width: 768px){
+  
+
+} 
+
+/* -- Desktop -- */
+@media (min-width: 1024px){
+
+
+} 
 
  
   

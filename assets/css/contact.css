@@ -1,17 +1,17 @@
-/* .navbar {
-    background-color: gray;
+body {
+   font-size: 16px;
+   height: auto;
+   
 }
-.form-container {
-    position: relative;
-    top: 20rem;
-    border: 1px solid #fe4066;
-    height: 100px;
+.contact-form {
+    margin-top: 10rem;
+    margin-left: 25vw;
+    width: 50vw;
 }
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    height: 200px;
-    background-color: #c90a0a;
-  
-  } */
+.navbar-fixed-top {
+    background-color: rgb(26, 25, 25);
+}
+.success {
+    color: #fe4066;
+    margin-top: 2rem;
+}

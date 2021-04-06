@@ -1,6 +1,8 @@
 body {
-    font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
     height: auto;
+    
 }
 .navbar-fixed-top{
     height: 5rem;
@@ -22,19 +24,23 @@ body {
     color: black;
   }
   .intro-container {
-      width: 100%;
-      height: 100%;
+    position: relative;
+    top: 7.5rem;
+    width: 100%;
+    height: 100%;
+     
   }
   .intro-title > h2 {
     margin-bottom: .5rem;
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
   .intro-description {
     margin-top: 1rem;
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 1em;
+    margin-bottom: 15em;
   }
   #intro-img {
         width: 100%;
@@ -44,12 +50,14 @@ body {
     width: 100%;
     height: auto;
     border: none;
+    background: none;
     
   }
   .card-title {
     margin-bottom: .5rem;
     font-size: 18px;
     line-height: 24px;
+    background: none;
 
   }
   .card-description {
@@ -57,12 +65,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 1em;
+    background: none;
   }
   .card-image {
       width: 100%;
       height: 200px;
       background-color: red;
-
+      background: none;
   }
 
 
@@ -77,19 +86,35 @@ body {
 
 /* -- Tablet -- */
 @media (min-width: 768px){
-
+  
+  .card {
+    width: 75vw;
+    height: 65vh;
+    border: none;
+    margin-bottom: 5rem;
+  }
+  .card-image {
+    width: 75vw;
+    height: 30vh;
+    border: none;
+    
+  }
 } 
 
 /* -- Desktop -- */
-@media (min-width: 990px){
+@media (min-width: 1024px){
   .card {
     width: 35vw;
     height: auto;
     border: none;
+    margin-bottom: 2.5rem;
     
   }
   .card-image {
-    height: 100%;
+    width: 35vw;
+    height: 45vh;
+    border: none;
+    
   }
 
 } 

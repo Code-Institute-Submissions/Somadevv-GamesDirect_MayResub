@@ -11,6 +11,7 @@
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="stylesheet" href="/assets/css/contact.css" />
+  <link rel="stylesheet" href="/assets/css/typeWriter.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact</title>
 </head>
@@ -19,13 +20,6 @@
 <body>
  <!------------------ HERO & INTRO ------------------>
  <div class="container-fluid">
-  <div id="hero-image">
-    <div class="intro-container">
-      <p class="intro-title text-white font-weight-500">Title</p>
-      <p class="intro-description text-white font-weight-100">Placeholder text</p>
-      <a href="#" class="btn btn-primary color-main">More Info</a>
-    </div>
-  </div>
 
 <!------------------ NAV ------------------>
     <nav class="navbar-container">
@@ -53,14 +47,142 @@
           </ul>
         </div>
       </nav>
+
+
+<!--Section: Contact v.2-->
+<div class="contact-form">
+<section class="mb-4">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4 color-main">Contact us!</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6 ">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn" onclick="submitMsg()">Send</a>
+              <p class="success"></p>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>United Kingdom, BTC 9834, UK</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+ 44 45 44 99 34</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>contact@gamesdirect.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+</div>
+<div class="footer-dark">
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                  <h3 class="color-main">Services</h3>
+                  <ul>
+                      <li><a href="#">Web design</a></li>
+                      <li><a href="#">Development</a></li>
+                      <li><a href="#">Hosting</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                  <h3  class="color-main">About</h3>
+                  <ul>
+                      <li><a href="#">Company</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Careers</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 item text">
+                  <h3  class="color-main">GamesDirect</h3>
+                  <p>We are an award-winning games review service, dedicated to the best result in the gaming industry, promotion, and marketing.</p>
+              </div>
+              <div class="col item social"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f color-main"></i></a><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter color-main"></i></a><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram color-main"></i></a><a href="https://telegram.org" target="_blank"><i class="fab fa-telegram color-main"></i></a></div>
+          </div>
+          <p class="copyright">GamesDirect © 2021</p>
+      </div>
+  </footer>
+</div>
 </body>
 
 
 
 
-  <footer>
-    <p class="text-white size-lg">Footer</p>
-  </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
