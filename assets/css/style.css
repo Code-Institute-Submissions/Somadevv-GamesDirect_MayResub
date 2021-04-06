@@ -76,6 +76,17 @@ body {
   border: 1px solid #fe4066;
   width: 7rem;
 }
+.active-link {
+  color: #fe4066;
+  font-family: 'Source Code Pro', monospace;  
+  text-transform: uppercase;
+  float: left;
+  font-weight: 500;
+  letter-spacing: .2rem;
+  font-size: 1rem;
+  margin: 1rem 1.5rem;
+  text-decoration: none;
+}
 
 .btn:hover {
 
@@ -146,19 +157,29 @@ body {
   font-size: 1.5rem;
   z-index: 1;
 }
-.nav-link:hover {
+.nav-links:hover {
   opacity: .2;
   transition: .3s;
-  color: #fe4066;
+  color: white;
 }
-.nav-link {
+.active-link:hover {
+  opacity: .2;
+  transition: .3s;
+  color: white;
+}
+.nav-item {
+  margin-left: 1rem;
+}
+.nav-links {
+  font-family: 'Source Code Pro', monospace;  
   text-transform: uppercase;
   float: left;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: .2rem;
   font-size: 1rem;
   margin: 1rem 1.5rem;
- 
+  text-decoration: none;
+  color: white;
 }
 
 .navbar-fixed-top{
@@ -274,7 +295,6 @@ body {
 /* -----------------------FOOTER */
 .footer-dark {
   text-align: center;
-  
   padding:50px 0;
   color:#f0f9ff;
   background-color:#1f1f1f;
