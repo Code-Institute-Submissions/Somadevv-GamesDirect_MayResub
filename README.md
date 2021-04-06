@@ -3,17 +3,48 @@
 # GAMES DIRECT
 ---
 
-## Table of Contents
-
-## [UX/UI](#UX/UI)
-
-## [User stories](#User_Stories)
-
-### - [Wireframes](#Wireframes)
+# PURPOSE
+GamesDirect was built with the intention of giving users an easy to use web application granting them access to our top rated/featured games upcoming games of 2021.
+This Website was created for the sole purpose of completing my first Milestone Project for the Code Institute's Full Stack Developer course. It was built using HTML, CSS and Bootstrap. A full list of technologies used can be found in the technologies section of this document.
 
 ---
 
-GamesDirect was built with the intention of giving users easy to use access on the top rated games in 2020 and featured upcoming games of 2021.
+## Table of Contents
+* [Purpose](#Purpose)
+* [User Experience Design (UX)](#User-Experience-Design)
+  * [User stories](#User-Stories)
+    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
+    * [Returning Visitor Goals](#Returning-Visitor-Goals)
+    * [Frequent User Goals](#Frequent-User-Goals)
+  * [Structure](#Structure)
+  * [Design](#Design)
+    * [Colour Scheme](#Colour-Scheme)
+    * [Typography](#Typography)
+    * [Imagery](#Imagery)
+    * [Wireframes](#Wireframes)
+    * [Differences to Design](Differences-to-Design)
+* [Limitations](#Limitations)
+- [Features](#Features)
+    * [Existing Features](#Existing-Features)
+    * [Future Features](#Features-Left-to-Implement)
+* [Technologies](#Technologies)
+* [Testing](#Testing)
+    * [Test Strategy](#Test-Strategy)
+      * [Summary](#Summary)
+      * [High Level Test Cases](#High-Level-Test-Cases)
+      * [Out of Scope](#Out-of-Scope)
+    * [Test Results](#Test-Results)
+    * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
+* [Deployment](#Deployment)
+    * [Project Creation](#Project-Creation)
+    * [GitHub Pages](#Using-Github-Pages)
+    * [Locally](Run-Locally)
+* [Credits](#Credits)
+  * [Content](#Content)
+  * [Media](#Media)
+  * [Acknowledgements](#Acknowledgements)
+  * [Comments](#Comments)
+
 
 ---
 
