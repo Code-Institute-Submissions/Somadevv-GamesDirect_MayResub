@@ -20,21 +20,12 @@ This Website was created for the sole purpose of completing my first Milestone P
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
     * [Typography](#Typography)
-    * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
-    * [Differences to Design](Differences-to-Design)
-* [Limitations](#Limitations)
 - [Features](#Features)
     * [Existing Features](#Existing-Features)
     * [Future Features](#Features-Left-to-Implement)
 * [Technologies](#Technologies)
 * [Testing](#Testing)
-    * [Test Strategy](#Test-Strategy)
-      * [Summary](#Summary)
-      * [High Level Test Cases](#High-Level-Test-Cases)
-      * [Out of Scope](#Out-of-Scope)
-    * [Test Results](#Test-Results)
-    * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
 * [Deployment](#Deployment)
     * [Project Creation](#Project-Creation)
     * [GitHub Pages](#Using-Github-Pages)
@@ -247,7 +238,7 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 [comment]: <> (--------------------------------WIREFRAMES)
 
-# **FRAMEWORKS**
+# DESIGN
 
 ## Home Pages
 
