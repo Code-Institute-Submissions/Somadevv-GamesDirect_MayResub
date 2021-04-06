@@ -98,60 +98,6 @@ The Top Rated page contains multiple games with their respective ratings. The pu
 <br>
 
 
-
-
-# USER STORIES
-
-## FIRST TIME VISITORS
-
-The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: _<pre>I should be able to find content & navigate the web application with ease</pre>_
-
-Each page will contain an introduction banner to display what the pages' description is, The purpose of this is to support the user story:
-
-_<pre>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</pre>_
-
-The Featured page will contain all of next years' top rated games, The purpose of this is to support the user story:
-
-_<pre>I should be able to view the highest rated games featured for the coming year</pre>_
-
-The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
-
-_<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
-
-Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
-
-_<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>_
-
-Custom front-end frameworks such as Bootstrap will be used to help structure the content on each page with mobile/tablet & desktop support in mind to help with user readability and visibility, The purpose of this is to support the user story:
-
-_<pre>I should be able to view the web application and the content within it clearly on my mobile/tablet device</pre>_
-
-The web application will have a footer element on every web page that will offer external social links and other relative information, The purpose of this is to support the user story:
-
-_<pre>I should be able to view the external social links effortlessly</pre>_
-
-## RETURNING VISITORS
-
-Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
-
-_<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>_
-
-The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
-
-_<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
-
-## FREQUENT VISITORS
-
-The Featured & Top Rated pages will contain each products supported platform & product rating, The purpose of this is to support the user story:
-
-_<pre>I should be able to view and compare ratings & platforms on individual products</pre>_
-
-The web application will frequentely keep the competetive products up to date, The purpose of this is to support the user story:
-_<pre>I should be able to see any recent updates/changes made to the web application</pre>_
-
----
-
-
 # FEATURES
 
 ## Existing Features
@@ -270,6 +216,60 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 <ul><li>This web applications' color scheme was created by using Coolors' palette creator</li>
 </ul>
 </ul>
+
+# USER STORIES
+
+## FIRST TIME VISITORS
+
+The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: _<pre>I should be able to find content & navigate the web application with ease</pre>_
+
+Each page will contain an introduction banner to display what the pages' description is, The purpose of this is to support the user story:
+
+_<pre>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</pre>_
+
+The Featured page will contain all of next years' top rated games, The purpose of this is to support the user story:
+
+_<pre>I should be able to view the highest rated games featured for the coming year</pre>_
+
+The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
+
+_<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
+
+Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
+
+_<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>_
+
+Custom front-end frameworks such as Bootstrap will be used to help structure the content on each page with mobile/tablet & desktop support in mind to help with user readability and visibility, The purpose of this is to support the user story:
+
+_<pre>I should be able to view the web application and the content within it clearly on my mobile/tablet device</pre>_
+
+The web application will have a footer element on every web page that will offer external social links and other relative information, The purpose of this is to support the user story:
+
+_<pre>I should be able to view the external social links effortlessly</pre>_
+
+## RETURNING VISITORS
+
+Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
+
+_<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>_
+
+The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
+
+_<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
+
+## FREQUENT VISITORS
+
+The Featured & Top Rated pages will contain each products supported platform & product rating, The purpose of this is to support the user story:
+
+_<pre>I should be able to view and compare ratings & platforms on individual products</pre>_
+
+The web application will frequentely keep the competetive products up to date, The purpose of this is to support the user story:
+_<pre>I should be able to see any recent updates/changes made to the web application</pre>_
+
+---
+
+
+
 
 [comment]: <> (--------------------------------WIREFRAMES)
 
