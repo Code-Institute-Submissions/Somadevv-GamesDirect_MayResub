@@ -273,6 +273,8 @@ body {
 
 /* -----------------------FOOTER */
 .footer-dark {
+  text-align: center;
+  
   padding:50px 0;
   color:#f0f9ff;
   background-color:#1f1f1f;
@@ -280,6 +282,7 @@ body {
 }
 
 .footer-dark h3 {
+
   margin-top:0;
   margin-bottom:12px;
   font-weight:bold;
@@ -287,6 +290,7 @@ body {
 }
 
 .footer-dark ul {
+
   padding:0;
   list-style:none;
   line-height:1.6;
@@ -295,6 +299,7 @@ body {
 }
 
 .footer-dark ul a {
+
   color:inherit;
   text-decoration:none;
   opacity:0.6;
@@ -306,6 +311,7 @@ body {
 
 
 .footer-dark .item.text p {
+  
   opacity:0.6;
   margin-bottom:0;
 }
@@ -317,6 +323,7 @@ body {
 
 
 .footer-dark .item.social > a {
+ 
   font-size:20px;
   width:36px;
   height:36px;
