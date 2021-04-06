@@ -53,6 +53,8 @@ function scrollTo() {
   function submitMsg() {
     document.querySelector(".success").innerHTML = "Thanks for getting in touch!";
   }
+
+  
   $(function () {
     $(document).scroll(function () {
       var $nav = $(".navbar-fixed-top");
