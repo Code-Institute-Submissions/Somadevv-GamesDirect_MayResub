@@ -1,6 +1,6 @@
+# GAMES DIRECT
 &nbsp;&nbsp;&nbsp;&nbsp;![Logo](assets/images/logo_wg.png)
 
-# GAMES DIRECT
 ---
 
 # PURPOSE
@@ -25,17 +25,7 @@ This Website was created for the sole purpose of completing my first Milestone P
     * [Existing Features](#Existing-Features)
     * [Future Features](#Features-Left-to-Implement)
 * [Technologies](#Technologies)
-* [Testing](#Testing)
 * [Deployment](#Deployment)
-    * [Project Creation](#Project-Creation)
-    * [GitHub Pages](#Using-Github-Pages)
-    * [Locally](Run-Locally)
-* [Credits](#Credits)
-  * [Content](#Content)
-  * [Media](#Media)
-  * [Acknowledgements](#Acknowledgements)
-  * [Comments](#Comments)
-
 
 ---
 
@@ -74,11 +64,45 @@ This Website was created for the sole purpose of completing my first Milestone P
 
 ---
 
-# Structure & Features
+# STRUCTURE
+
+Custom CSS and/or Bootstrap will be used to make the Website responsive by the use of media queries and/or the Boostrap Grid system.
+
+All web pages will contain a Navigation menu at the top of the Webpage that directs them to their respected page to allow for easy Navigation around the site. The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices. The purpose of this is to fulfill user story:
+
+**I should be able to view the web application and the content within it clearly on my mobile/tablet device**
+
+All pages will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing, images are displayed properly. The purpose of this is to fulfill user story:
+
+**I should be able to view the web application and the content within it clearly on my mobile/tablet device**
+
+The Home Page will contain a small section explaining what the site's main focus is. The purpose of this is to fulfill user story:
+
+**I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs**
+
+
+The Contact Page will contain a form that can be used to contact the support team through the website. The purpose of this Page is to fulfill user stories:
+
+**I should be able to easily communicate with website support regarding any enquiries/suggestions I have**
+
+A footer has been added to all web pages across the website with social links included inside it. The purpose of this is to fulfill user stories:
+
+**I should be able to view the external social links effortlessly**
+
+
+The Top Rated page contains multiple games with their respective ratings. The purpose of this is to fulfill user stories:
+
+**I should be able to view and compare ratings & platforms on individual products**
+
 
 <br>
 
-## **FIRST TIME VISITORS**
+
+
+
+# USER STORIES
+
+## FIRST TIME VISITORS
 
 The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: _<pre>I should be able to find content & navigate the web application with ease</pre>_
 
@@ -106,7 +130,7 @@ The web application will have a footer element on every web page that will offer
 
 _<pre>I should be able to view the external social links effortlessly</pre>_
 
-## **RETURNING VISITORS**
+## RETURNING VISITORS
 
 Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
 
@@ -116,7 +140,7 @@ The web application has a Contact page where the user can directly contact the s
 
 _<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
 
-## **FREQUENT VISITORS**
+## FREQUENT VISITORS
 
 The Featured & Top Rated pages will contain each products supported platform & product rating, The purpose of this is to support the user story:
 
@@ -127,7 +151,7 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 ---
 
-# **FEATURES TO ADD**
+# Features-Left-to-Implement
 
 <ul>
 <li>Add a Sign up & Sign in function to offer user notifications on updates</li>
@@ -139,7 +163,7 @@ _<pre>I should be able to see any recent updates/changes made to the web applica
 
 ---
 
-# **TECHNOLOGIES USED**
+# TECHNOLOGIES
 <ul><li>HTML</li>
 <ul><li>This web application uses HTML (Hyper text markup langauge) as the main language to structure each web page</li>
 </ul>
