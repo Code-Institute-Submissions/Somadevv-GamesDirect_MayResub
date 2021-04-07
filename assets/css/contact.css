@@ -10,6 +10,7 @@ body {
 }
 .navbar-fixed-top {
     background-color: rgb(26, 25, 25);
+    height: 5rem;
 }
 .success {
     color: #fe4066;
