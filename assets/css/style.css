@@ -87,7 +87,7 @@ body {
   font-weight: 500;
   letter-spacing: .2rem;
   font-size: 1rem;
-  margin: 1rem 1.5rem;
+  margin: 5rem 1.5rem;
   text-decoration: none;
 }
 
@@ -145,6 +145,7 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
+  height: auto;
   background-color: rgb(20, 20, 20);
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
   margin: 0;
@@ -153,9 +154,8 @@ body {
 
    }
 .navbar-toggler {
-
   border: 0;
-  margin-right: .5rem;
+  margin-right: 0rem;
   margin-top: .2rem;
   transition: width 1s ease;
   font-size: 1.5rem;
@@ -181,16 +181,15 @@ body {
   font-weight: 500;
   letter-spacing: .2rem;
   font-size: 1rem;
-  margin: 1rem 1.5rem;
+
   text-decoration: none;
   color: white;
 }
 
 .navbar-fixed-top{
-  height: 5rem;
+  height: 2rem;
   width: 100vw;
   transition:1.25s;
-  position: relative;
   /* background-color: red; */
 
 }
@@ -237,7 +236,6 @@ body {
 /* -----------------------FEATURES */
 .features-container {
   margin-top: 22.5rem;
-  margin-bottom: 5rem;
   text-align: center;
 
 }
@@ -374,9 +372,12 @@ body {
 /* -- Mobile -- */
 
 @media (min-width: 320px){
-  .features {
-  margin-bottom: 6rem;
-
+  .nav-links {
+    margin: 1rem 1.5rem;
+  }
+  .active-link {
+    margin: 1rem 1.5rem;
+  }
 }
 
 /* -- Tablet -- */
@@ -420,6 +421,14 @@ body {
 
 /* -- Desktop -- */
 @media (min-width: 990px){
+  .nav-links {
+    margin: 5rem 1.5rem;
+  }
+  .active-link {
+    margin: 5rem 1.5rem;
+  }
+
+
   .footer-dark .item.social {
     text-align:center;
     margin-top:20px;
