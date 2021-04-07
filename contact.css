@@ -1,0 +1,17 @@
+body {
+   font-size: 16px;
+   height: auto;
+   
+}
+.contact-form {
+    margin-top: 10rem;
+    margin-left: 25vw;
+    width: 50vw;
+}
+.navbar-fixed-top {
+    background-color: rgb(26, 25, 25);
+}
+.success {
+    color: #fe4066;
+    margin-top: 2rem;
+}
