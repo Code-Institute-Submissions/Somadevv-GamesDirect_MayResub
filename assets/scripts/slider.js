@@ -1,3 +1,4 @@
+// Credit https://www.sitepoint.com/
 class Slider{
   constructor(sliderContainer, interval) {
       this.sliderContainer = sliderContainer;

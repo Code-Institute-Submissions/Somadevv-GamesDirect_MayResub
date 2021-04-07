@@ -86,6 +86,7 @@ var mmorpgElement = document.querySelector(".mmorpgTitle");
     document.querySelector(".success").innerHTML = "Thanks for getting in touch!";
   }
 
+// Credit: David Michael 
 // Enables scrolled navigation bar on each page
   $(function () {
     $(document).scroll(function () {
