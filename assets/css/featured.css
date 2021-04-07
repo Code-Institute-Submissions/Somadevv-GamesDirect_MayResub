@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Code Pro', monospace;  
   font-size: 16px;
     height: auto;
     
@@ -23,12 +23,12 @@ body {
     z-index: 1;
     color: black;
   }
+
   .intro-container {
     position: relative;
-    top: 7.5rem;
+    top: 6.5rem;
     width: 100%;
-    height: 100%;
-     
+    height: auto;
   }
   .intro-title > h2 {
     margin-bottom: .5rem;
@@ -40,19 +40,21 @@ body {
     margin-top: 1rem;
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 15em;
+    margin-bottom: 7.5vh;
   }
   #intro-img {
-        width: 100%;
-        height: 100%;
+  width: 100%;
+  height: 100%;
+  filter: brightness(80%);
   }
-  .card {
-    width: 100%;
+  .feature-list-container {
+    width: 100vw;
     height: auto;
-    border: none;
-    background: none;
-    
+    margin-top: 12.5rem;
   }
+ .card-body {
+   overflow: scroll;
+ }
   .card-title {
     margin-bottom: .5rem;
     font-size: 18px;
@@ -103,6 +105,9 @@ body {
 
 /* -- Desktop -- */
 @media (min-width: 1024px){
+  .card-body {
+    overflow: hidden;
+  }
   .card {
     width: 35vw;
     height: auto;

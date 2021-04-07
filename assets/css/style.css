@@ -49,7 +49,7 @@ body {
   font-size: 1.5rem;
 }
 .size-lg {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .size-lgx {
   font-size: 4rem;
@@ -68,6 +68,9 @@ body {
 }
 .bg-main {
   background-color: #fe4066; 
+}
+.text-black {
+  color: black;
 }
 
 .btn {
@@ -140,7 +143,7 @@ body {
 }
 .navbar-nav {
   position: fixed;
-  top: 0;
+  top: 6.25vh;
   width: 100vw;
   background-color: rgb(20, 20, 20);
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
@@ -186,7 +189,8 @@ body {
   height: 5rem;
   width: 100vw;
   transition:1.25s;
-  z-index: 5;
+  position: relative;
+  /* background-color: red; */
 
 }
 .navbar-fixed-top.scrolled {
@@ -194,7 +198,6 @@ body {
   height: 5rem;
   width: 100vw;
   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
-  z-index: 15;
 
 }
 
@@ -223,16 +226,9 @@ body {
 
 }
 .hero-image {
+
   filter: brightness(15.5%);
   position: absolute;
-  top: 0;
-  width: 100vw;
-  height: 5vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- 
 } 
 
 
@@ -259,6 +255,7 @@ body {
   margin-bottom: 2.5rem;
   height: 32.5rem;
   box-shadow: rgba(0, 0, 0, .5) 0px 2px 10px;
+
 }
 
 
@@ -425,7 +422,7 @@ body {
   }
   #logo2 {
     height: 5rem;
-    margin-top: .75rem; 
+  
   }
   
   #logo {
