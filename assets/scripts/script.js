@@ -1,31 +1,18 @@
  // TODO
  // Optimise code & remove DRY (Do not repeat yourself)
 
+
+ // Global variables
 var fps = document.querySelector(".fps-container");
 var rpg = document.querySelector(".rpg-container");
 var mmorpg = document.querySelector(".mmorpg-container");
 var fpsImg = document.querySelector('.fps-image');
 var rpgImg = document.querySelector('.rpg-image');
 var mmorpgImg = document.querySelector('.mmorpg-image');
-
 var fpsElement = document.querySelector(".fpsTitle");
 var rpgElement = document.querySelector(".rpgTitle");
 var mmorpgElement = document.querySelector(".mmorpgTitle");
 
-
-// var fpsContainer = document.querySelector('.fps-container');
-// var rpgContainer = document.querySelector('.rpg-container');
-// var mmorpgContainer = document.querySelector('.mmorpg-container');
-
-
-
-
-
-// Scroll to CTA
-function scrollTo() {
-  var elmnt = document.getElementById("cta");
-
-}
 
   function toggleFps() {
     var displaySetting = fps.style.display;
@@ -94,18 +81,16 @@ function scrollTo() {
     }
   }
 
-
+// Submits message to DOM when user submits form on contact.html
   function submitMsg() {
     document.querySelector(".success").innerHTML = "Thanks for getting in touch!";
   }
 
-  
+// Enables scrolled navigation bar on each page
   $(function () {
     $(document).scroll(function () {
       var $nav = $(".navbar-fixed-top");
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-      // document.querySelector(".navbar-nav").style.marginTop = "0";
-      // document.querySelector(".navbar-nav").style.paddingTop = "1rem";
     });
     
   });
