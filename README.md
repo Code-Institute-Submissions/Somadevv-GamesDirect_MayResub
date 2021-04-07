@@ -4,8 +4,8 @@
 ---
 
 # PURPOSE
-GamesDirect was built with the intention of giving users an easy to use web application granting them access to our top rated/featured games upcoming games of 2021.
-This Website was created for the sole purpose of completing my first Milestone Project for the Code Institute's Full Stack Developer course. It was built using HTML, CSS and Bootstrap. A full list of technologies used can be found in the technologies section of this document.
+GamesDirect was built with the intention of giving users an easy-to-use web application granting them access to our top-rated/featured games upcoming games of 2021.
+This Website was created for the sole purpose of completing my first Milestone Project for the Code Institute's Full Stack Developer course. It was built using HTML, CSS, and Bootstrap. A full list of technologies used can be found in the technologies section of this document.
 
 ---
 
@@ -17,6 +17,7 @@ This Website was created for the sole purpose of completing my first Milestone P
     * [Returning Visitor Goals](#Returning-Visitor-Goals)
     * [Frequent User Goals](#Frequent-User-Goals)
   * [Structure](#Structure)
+  * [Testing](#Testing)
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
     * [Typography](#Typography)
@@ -38,8 +39,8 @@ This Website was created for the sole purpose of completing my first Milestone P
 ### **First Time Visitor Goals**
 
 <ul>
-<li>I should to be able to find content and navigate around the web application with ease</li>
-<li>I should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
+<li>I should be able to find content and navigate around the web application with ease</li>
+<li>I should be able to view a detailed description of the web applications' main focus, to ensure it suits my needs</li>
 <li>I should be able to view the highest rated games featured for the coming year</li>
 <li>I should be able to easily contact the websites' support team regarding any enquiries/suggestions I have</li>
 <li>I should be able to effectively view additions to the featured games <br>section clearly and efficiently</li>
@@ -66,19 +67,19 @@ This Website was created for the sole purpose of completing my first Milestone P
 
 # STRUCTURE
 
-Custom CSS and/or Bootstrap will be used to make the Website responsive by the use of media queries and/or the Boostrap Grid system.
+Custom CSS and/or Bootstrap will be used to make the Website responsive by the use of media queries and/or the Bootstrap Grid system.
 
-All web pages will contain a Navigation menu at the top of the Webpage that directs them to their respected page to allow for easy Navigation around the site. The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices. The purpose of this is to fulfill user story:
-
-**I should be able to view the web application and the content within it clearly on my mobile/tablet device**
-
-All pages will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing, images are displayed properly. The purpose of this is to fulfill user story:
+All web pages will contain a Navigation menu at the top of the Webpage that directs them to their respected page to allow for easy navigation around the site. The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices. The purpose of this is to fulfill the user story:
 
 **I should be able to view the web application and the content within it clearly on my mobile/tablet device**
 
-The Home Page will contain a small section explaining what the site's main focus is. The purpose of this is to fulfill user story:
+All pages will be responsive and the layouts will change depending on screen size. This is to ensure content flow is appealing, images are displayed properly. The purpose of this is to fulfill the user story:
 
-**I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs**
+**I should be able to view the web application and the content within it clearly on my mobile/tablet device**
+
+The Home Page will contain a small section explaining what the site's main focus is. The purpose of this is to fulfill the user story:
+
+**I Should be able to view a detailed description of the web applications' main focus, to ensure it suits my needs**
 
 
 The Contact Page will contain a form that can be used to contact the support team through the website. The purpose of this Page is to fulfill user stories:
@@ -90,12 +91,34 @@ A footer has been added to all web pages across the website with social links in
 **I should be able to view the external social links effortlessly**
 
 
-The Top Rated page contains multiple games with their respective ratings. The purpose of this is to fulfill user stories:
+The Top-Rated page contains multiple games with their respective ratings. The purpose of this is to fulfill user stories:
 
 **I should be able to view and compare ratings & platforms on individual products**
 
 
 <br>
+
+# TESTING
+<ul>
+<li>Tested  each navigation link is working correctly and navigates the user to the respective web page.</li>
+
+
+<li>Tested homepage logo ensuring it directs/redirects the user to the homepage.
+
+<li>Tested Social Media icons in Footer to ensure they open the correct pages, also added functionality to point the user into a new tab.
+
+<li>Tested Submit button in the contact section to ensure the user is updated when the form has been submitted.</li>
+
+<li>Tested navigation drop-down burger menu to ensure it works on mobile devices.</li>
+
+<li>Tested Responsiveness of all pages using Google Mobile-Friendly Test Home Page.</li>
+
+<li>Tested HTML Validation No errors or warnings to show.</li>
+
+<li>Tested CSS Validation</li>
+
+<li>Ran README text through Online-Spellcheck to double-check on grammar and spelling.</li>
+
 
 
 # FEATURES
