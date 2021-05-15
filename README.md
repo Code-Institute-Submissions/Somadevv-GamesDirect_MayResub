@@ -2,13 +2,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;![Logo](assets/images/logo_wg.png)
 
 ---
-
-# PURPOSE
-GamesDirect was built with the intention of giving users an easy-to-use web application granting them access to our top-rated/featured games upcoming games of 2021.
-This Website was created for the sole purpose of completing my first Milestone Project for the Code Institute's Full Stack Developer course. It was built using HTML, CSS, and Bootstrap. A full list of technologies used can be found in the technologies section of this document.
-
----
-
 ## Table of Contents
 * [Purpose](#Purpose)
 * [User Experience Design (UX)](#User-Experience-Design)
@@ -27,6 +20,11 @@ This Website was created for the sole purpose of completing my first Milestone P
     * [Future Features](##Features-Left-to-Implement)
 * [Technologies](#TECHNOLOGIES)
 * [Deployment](#DEPLOYMENT)
+
+
+# PURPOSE
+GamesDirect was built with the intention of giving users an easy-to-use web application granting them access to our top-rated/featured games upcoming games of 2021.
+This Website was created for the sole purpose of completing my first Milestone Project for the Code Institute's Full Stack Developer course. It was built using HTML, CSS, and Bootstrap. A full list of technologies used can be found in the technologies section of this document.
 
 ---
 
