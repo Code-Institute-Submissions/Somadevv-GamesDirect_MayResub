@@ -355,22 +355,28 @@ All images used throughout the website were taken from a free source: [Wallpaper
 # TESTING
 <ul>
 
-<li>Tested homepage logo ensuring it directs/redirects the user to the homepage
+<li>Tested homepage logo ensuring it directs/redirects the user to the homepage. This ensures the needs of the user story:
 <pre>I should be able to return to the homepage via the main Logo on the navigation bar</pre></li>
 
-<li>Tested Social Media icons in Footer to ensure they open the correct pages, also added functionality to point the user into a new tab.</li>
+<li>Tested Social Media icons in Footer to ensure they open the correct pages, also added functionality to point the user into a new tab. This ensures the needs of the user story:
+   <pre>I should be able to view the external social links effortlessly</pre>
+</li>
 
 <li>Tested Submit button in the contact section to ensure the user is updated when the form has been submitted.</li>
 
-<li>Tested navigation drop-down burger menu to ensure it works on mobile devices.</li>
+<li>Tested navigation drop-down burger menu to ensure it works on mobile devices.  This ensures the needs of the user story:
+   <pre>I should be able to view the web application and the content within it clearly on my mobile/tablet device</pre>
+</li>
 
-<li>Tested Responsiveness of all pages using Google Mobile-Friendly Test Home Page.</li>
+<li>Tested Responsiveness of all pages using Google Mobile-Friendly Test Home Page.  This ensures the needs of the user story:
+   <pre>I should be able to view the web application and the content within it clearly on my mobile/tablet device</pre>
+</li>
 
-<li>Tested HTML Validation No errors or warnings to show.</li>
+<li>Ran README text through Online-Spellcheck to double-check on grammar and spelling.
+</li>
 
-<li>Tested CSS Validation</li>
-
-<li>Ran README text through Online-Spellcheck to double-check on grammar and spelling.</li>
+## <li>HTML Validation testing</li>
+<li>Tested HTML Validation No errors or warnings to show. The results of the validation tests can be seen below</li>
 
 # DEPLOYMENT
 ## To deploy this site locally follow the steps below:
