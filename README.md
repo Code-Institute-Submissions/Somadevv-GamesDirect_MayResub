@@ -8,7 +8,7 @@
     * [First Time Visitor Goals](#First-Time-Visitor-Goals)
     * [Returning Visitor Goals](#Returning-Visitor-Goals)
     * [Frequent User Goals](#Frequent-User-Goals)
-   * [User experience](#User-Experience)
+  * [User experience](#User-Experience)
     * [First Time Visitors](#First-Time-Visitors)
     * [Returning Visitors](#Returning-Visitors)
     * [Frequent Visitors](#Frequent-Visitors)
