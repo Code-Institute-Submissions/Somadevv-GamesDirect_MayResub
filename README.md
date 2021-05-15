@@ -13,15 +13,15 @@
     * [Returning Visitors](#Returning-Visitors)
     * [Frequent Visitors](#Frequent-Visitors)
 * [Structure](#STRUCTURE)
-* [Testing](#TESTING)
 * [Design](#DESIGN)
     * [Colour Scheme](###Colour-Scheme)
     * [Typography](###Typography)
     * [Imagery](###Imagery)
-- [Features](#FEATURES)
+* [Features](#FEATURES)
     * [Existing Features](##Existing-Features)
     * [Future Features](##Features-Left-to-Implement)
 * [Technologies](#TECHNOLOGIES)
+* [Testing](#TESTING)
 * [Deployment](#DEPLOYMENT)
 
 
@@ -149,26 +149,6 @@ The Top-Rated page contains multiple games with their respective ratings. The pu
 
 <br>
 
-# TESTING
-<ul>
-<li>Tested  each navigation link is working correctly and navigates the user to the respective web page.</li>
-
-<li>Tested homepage logo ensuring it directs/redirects the user to the homepage.
-
-<li>Tested Social Media icons in Footer to ensure they open the correct pages, also added functionality to point the user into a new tab.
-
-<li>Tested Submit button in the contact section to ensure the user is updated when the form has been submitted.</li>
-
-<li>Tested navigation drop-down burger menu to ensure it works on mobile devices.</li>
-
-<li>Tested Responsiveness of all pages using Google Mobile-Friendly Test Home Page.</li>
-
-<li>Tested HTML Validation No errors or warnings to show.</li>
-
-<li>Tested CSS Validation</li>
-
-<li>Ran README text through Online-Spellcheck to double-check on grammar and spelling.</li>
-
 # DESIGN
 ### Colour Scheme
 The main background colour is a pinkish red #fe4066 for the house style
@@ -245,12 +225,6 @@ All images used throughout the website were taken from a free source: [Wallpaper
 ---
 
 
-# CREDITS
-All images (Hero, background & cards) were taken from [Wallpaperaccess](https://wallpaperaccess.com)
-
-Logo - Taken from [Google](https://google.com)
-
- 
 # Code
 
 [Sidepoint](https://www.sitepoint.com) - The code used for the index.html image carousel was taken from here
@@ -382,9 +356,25 @@ Slack user Spencer Baribell for his guidance throughout the project
 </ul>
 
 
+# TESTING
+<ul>
+<li>Tested  each navigation link is working correctly and navigates the user to the respective web page.</li>
 
+<li>Tested homepage logo ensuring it directs/redirects the user to the homepage.
 
+<li>Tested Social Media icons in Footer to ensure they open the correct pages, also added functionality to point the user into a new tab.
 
+<li>Tested Submit button in the contact section to ensure the user is updated when the form has been submitted.</li>
+
+<li>Tested navigation drop-down burger menu to ensure it works on mobile devices.</li>
+
+<li>Tested Responsiveness of all pages using Google Mobile-Friendly Test Home Page.</li>
+
+<li>Tested HTML Validation No errors or warnings to show.</li>
+
+<li>Tested CSS Validation</li>
+
+<li>Ran README text through Online-Spellcheck to double-check on grammar and spelling.</li>
 
 # DEPLOYMENT
 ## To deploy this site locally follow the steps below:
@@ -405,3 +395,9 @@ In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://somadevv.github.io/GamesDirect/
+
+
+# CREDITS
+All images (Hero, background & cards) were taken from [Wallpaperaccess](https://wallpaperaccess.com)
+
+Logo - Taken from [Google](https://google.com)
