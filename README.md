@@ -23,7 +23,10 @@
 * [Technologies](#TECHNOLOGIES)
 * [Testing](#TESTING)
 * [Deployment](#DEPLOYMENT)
-
+* [Credits](#CREDITS)
+    * [Imagery] (##Imagery)
+    * [Code] (##Code)
+    * [Acknowledgements] (##Acknowledgements)
 
 # PURPOSE
 GamesDirect was built with the intention of giving users an easy-to-use web application granting them access to our top-rated/featured games upcoming games of 2021.
@@ -224,18 +227,6 @@ All images used throughout the website were taken from a free source: [Wallpaper
 
 ---
 
-
-# Code
-
-[Sidepoint](https://www.sitepoint.com) - The code used for the index.html image carousel was taken from here
-
-# Acknowledgements
-
-I'd like to thank the following slack community members for their help and guidance along the development of this project:
-
-Slack user Spencer Baribell for his guidance throughout the project
-
-
 # FEATURES
 
 ## Existing Features
@@ -398,6 +389,17 @@ The live link can be found here - https://somadevv.github.io/GamesDirect/
 
 
 # CREDITS
+## Imagery
 All images (Hero, background & cards) were taken from [Wallpaperaccess](https://wallpaperaccess.com)
 
 Logo - Taken from [Google](https://google.com)
+
+## Code
+
+[Sidepoint](https://www.sitepoint.com) - The code used for the index.html image carousel was taken from here
+
+## Acknowledgements
+
+I'd like to thank the following slack community members for their help and guidance along the development of this project:
+
+Slack user Spencer Baribell for his guidance throughout the project
