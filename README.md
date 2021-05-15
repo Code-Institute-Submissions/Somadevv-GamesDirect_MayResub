@@ -4,7 +4,6 @@
 ---
 ## Table of Contents
 * [Purpose](#Purpose)
-* [User Experience Design (UX)](#User-Experience-Design)
   * [User stories](#User-Stories)
     * [First Time Visitor Goals](#First-Time-Visitor-Goals)
     * [Returning Visitor Goals](#Returning-Visitor-Goals)
