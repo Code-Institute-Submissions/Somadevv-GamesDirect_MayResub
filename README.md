@@ -24,9 +24,9 @@
 * [Testing](#TESTING)
 * [Deployment](#DEPLOYMENT)
 * [Credits](#CREDITS)
-    * [Imagery] (##Imagery)
-    * [Code] (##Code)
-    * [Acknowledgements] (##Acknowledgements)
+    * [Imagery](##Imagery)
+    * [Code](##Code)
+    * [Acknowledgements](##Acknowledgements)
 
 # PURPOSE
 GamesDirect was built with the intention of giving users an easy-to-use web application granting them access to our top-rated/featured games upcoming games of 2021.
