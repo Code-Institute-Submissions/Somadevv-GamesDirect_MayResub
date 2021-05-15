@@ -16,17 +16,17 @@ This Website was created for the sole purpose of completing my first Milestone P
     * [First Time Visitor Goals](#First-Time-Visitor-Goals)
     * [Returning Visitor Goals](#Returning-Visitor-Goals)
     * [Frequent User Goals](#Frequent-User-Goals)
-  * [Structure](#Structure)
-  * [Testing](#Testing)
-  * [Design](#Design)
-    * [Colour Scheme](#Colour-Scheme)
-    * [Typography](#Typography)
-    * [Wireframes](#Wireframes)
-- [Features](#Features)
-    * [Existing Features](#Existing-Features)
-    * [Future Features](#Features-Left-to-Implement)
-* [Technologies](#Technologies)
-* [Deployment](#Deployment)
+  * [Structure](#STRUCTURE)
+  * [Testing](#TESTING)
+  * [Design](#DESIGN)
+    * [Colour Scheme](###Colour-Scheme)
+    * [Typography](###Typography)
+    * [Imagery](###Imagery)
+- [Features](#FEATURES)
+    * [Existing Features](##Existing-Features)
+    * [Future Features](##Features-Left-to-Implement)
+* [Technologies](#TECHNOLOGIES)
+* [Deployment](#DEPLOYMENT)
 
 ---
 
@@ -61,7 +61,60 @@ This Website was created for the sole purpose of completing my first Milestone P
 <ul>
 <li>I should be able to view the web application and the content within it clearly on my mobile/tablet device</li>
 <li>I should be up to date with any top rated/featured games this year/next year</li>
-<li>I should be able to contact/email support if I feel they have misssed out on a top rated/featured game</li></ul><br>
+<li>I should be able to contact/email support if I feel they have missed out on a top rated/featured game</li></ul><br>
+
+
+
+## FIRST TIME VISITORS
+
+The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: _<pre>I should be able to find content & navigate the web application with ease</pre>_
+
+Each page will contain an introduction banner to display what the pages' description is, The purpose of this is to support the user story:
+
+_<pre>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</pre>_
+
+The Featured page will contain all of next years' top rated games, The purpose of this is to support the user story:
+
+_<pre>I should be able to view the highest rated games featured for the coming year</pre>_
+
+The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
+
+_<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
+
+Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
+
+_<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>_
+
+Custom front-end frameworks such as Bootstrap will be used to help structure the content on each page with mobile/tablet & desktop support in mind to help with user readability and visibility, The purpose of this is to support the user story:
+
+_<pre>I should be able to view the web application and the content within it clearly on my mobile/tablet device</pre>_
+
+The web application will have a footer element on every web page that will offer external social links and other relative information, The purpose of this is to support the user story:
+
+_<pre>I should be able to view the external social links effortlessly</pre>_
+
+
+## FREQUENT VISITORS
+
+The Featured & Top Rated pages will contain each products supported platform & product rating, The purpose of this is to support the user story:
+
+_<pre>I should be able to view and compare ratings & platforms on individual products</pre>_
+
+The web application will frequently keep the competitive products up to date, The purpose of this is to support the user story:
+_<pre>I should be able to see any recent updates/changes made to the web application</pre>_
+
+## RETURNING VISITORS
+
+Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
+
+_<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>_
+
+The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
+
+_<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
+
+
+---
 
 ---
 
@@ -102,7 +155,6 @@ The Top-Rated page contains multiple games with their respective ratings. The pu
 <ul>
 <li>Tested  each navigation link is working correctly and navigates the user to the respective web page.</li>
 
-
 <li>Tested homepage logo ensuring it directs/redirects the user to the homepage.
 
 <li>Tested Social Media icons in Footer to ensure they open the correct pages, also added functionality to point the user into a new tab.
@@ -121,12 +173,105 @@ The Top-Rated page contains multiple games with their respective ratings. The pu
 
 
 
+# DESIGN
+### Colour Scheme
+The main background colour is a pinkish red #fe4066 for the house style
+The main website text is black #000000
+
+### Typography
+The main headings/titles on all pages use the 'Poppins' font while the rest of the websites content uses the 'Source Code Pro' font
+
+### Imagery
+The website logo was taken from [Google](https://google.com)
+All images used throughout the website were taken from a free source: [Wallpaperaccess](https://wallpaperaccess.com)
+
+
+### Wire frames
+[comment]: <> (--------------------------------WIREFRAMES)
+
+## Home Pages
+
+### **_Mobile/Tablet/Desktop_**
+
+<img src="assets/wireframes/Home-mobile.png" alt="drawing" width="175" height="300"/>
+
+<img src="assets/wireframes/home-tablet.png" alt="drawing" width="220" height="300"/>
+
+<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="320" height="200"/>
+
+---
+
+[comment]: <> (--------------------------------TOP RATED PAGES)
+
+## **_TOP RATED PAGES_**
+
+---
+
+### **Mobile/Tablet/Desktop**
+
+<img src="assets/wireframes/Toprated-mobile.png" alt="drawing" width="175" height="300"/>
+<img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="220" height="300"/>
+<img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="320" height="200"/>
+
+---
+
+[comment]: <> (------5--------------------------FEATURED PAGES)
+
+# **_FEATURED PAGES_**
+
+### **Mobile/Tablet/Desktop**
+
+<img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="175" height="300"/>
+<img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="220" height="300"/>
+<img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="320" height="200"/>
+
+[comment]: <> (--------------------------------CONTACT PAGES)
+
+## **CONTACT PAGES**
+
+---
+
+### **Mobile/Tablet/Desktop**
+
+<img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="175" height="300"/>
+<img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="210" height="300"/>
+<img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="320" height="200"/>
+
+[comment]: <> (--------------------------------HOME PAGES)
+
+### **_Wire frames [PDF]_**
+
+[Home Page](assets/wireframes/pdf/Home.pdf)<br>
+[Top Rated Page](assets/wireframes/pdf/Toprated.pdf)<br>
+[Featured Page](assets/wireframes/pdf/Featured.pdf)<br>
+[Contact Page](assets/wireframes/pdf/Contact.pdf)<br><br>
+
+---
+
+
+# CREDITS
+All images (Hero, background & cards) were taken from [Wallpaperaccess](https://wallpaperaccess.com)
+
+Logo - Taken from [Google](https://google.com)
+
+ 
+# Code
+
+[Sidepoint](https://www.sitepoint.com) - The code used for the index.html image carousel was taken from here
+
+# Acknowledgements
+
+I'd like to thank the following slack community members for their help and guidance along the development of this project:
+
+Slack user Spencer Baribell for his guidance throughout the project
+
+
 # FEATURES
 
 ## Existing Features
 <ul>
 <li>Featured page - This section on the website to promote this years most featured games</li>
-<li>Top Rated page - This section on the website to present the highest rated games to the user so they can easily compare multi genres of games with useful information attatched to them</li>
+<li>Top Rated page - This section on the website to present the highest rated games to the user so they can easily compare multi genres of games with useful information attached to them</li>
 <li>Contact Form - This can be filled in on the contact.html page and used in order to contact the support team with any queries users may have</li>
 <li>Automatic Carousel - This can found on the index.html page, this was implemented for cosmetics/design purposes</li>
 
@@ -136,7 +281,7 @@ The Top-Rated page contains multiple games with their respective ratings. The pu
 
 <ul>
 <li>Add a Sign up & Sign in function to offer user notifications on updates</li>
-<li>Add a catergory to Top rated section to keep a more organized web application</li>
+<li>Add a category to Top rated section to keep a more organized web application</li>
 <li>Add a search function so users can easily locate specific queries</li>
 <li>Add a compare function that allows users to compare products</li>
 <li>Add a in browser activity log showing what update/products have been pushed to the web application</li>
@@ -145,12 +290,12 @@ The Top-Rated page contains multiple games with their respective ratings. The pu
 
 # TECHNOLOGIES
 <ul><li>HTML</li>
-<ul><li>This web application uses HTML (Hyper text markup langauge) as the main language to structure each web page</li>
+<ul><li>This web application uses HTML (Hyper text markup language as the main language to structure each web page</li>
 </ul>
 </ul>
 
 <ul><li>CSS</li>
-<ul><li>This web application uses CSS (Cascasing style sheet) to style each web page</li>
+<ul><li>This web application uses CSS (Cascading style sheet) to style each web page</li>
 </ul>
 </ul>
 <ul><li>
@@ -189,7 +334,7 @@ The Top-Rated page contains multiple games with their respective ratings. The pu
 
 [Balsamiq](https://balsamiq.com/wireframes/)</li>
 
-<ul><li>This documentations wireframe work was provided using Balsmaiqs' application tools</li>
+<ul><li>This documentations wire frame work was provided using Balsmaiqs' application tools</li>
 </ul>
 </ul>
 
@@ -240,119 +385,27 @@ The Top-Rated page contains multiple games with their respective ratings. The pu
 </ul>
 </ul>
 
-# USER STORIES
-
-## FIRST TIME VISITORS
-
-The Home page will contain a navigation bar to let the user easily navigate around the web application, The purpose of this is to support the user story: _<pre>I should be able to find content & navigate the web application with ease</pre>_
-
-Each page will contain an introduction banner to display what the pages' description is, The purpose of this is to support the user story:
-
-_<pre>I Should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</pre>_
-
-The Featured page will contain all of next years' top rated games, The purpose of this is to support the user story:
-
-_<pre>I should be able to view the highest rated games featured for the coming year</pre>_
-
-The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
-
-_<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
-
-Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
-
-_<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>_
-
-Custom front-end frameworks such as Bootstrap will be used to help structure the content on each page with mobile/tablet & desktop support in mind to help with user readability and visibility, The purpose of this is to support the user story:
-
-_<pre>I should be able to view the web application and the content within it clearly on my mobile/tablet device</pre>_
-
-The web application will have a footer element on every web page that will offer external social links and other relative information, The purpose of this is to support the user story:
-
-_<pre>I should be able to view the external social links effortlessly</pre>_
-
-## RETURNING VISITORS
-
-Custom CSS will be applied to help the content follow a strict typography/font/color structure, The purpose of this is to support the user story:
-
-_<pre>I should be able to effectively view additions to the featured games section clearly and efficiently</pre>_
-
-The web application has a Contact page where the user can directly contact the support team, The purpose of this is to support the user story:
-
-_<pre>I should be able to easily communicate with website support regarding any enquiries/suggestions I have</pre>_
-
-## FREQUENT VISITORS
-
-The Featured & Top Rated pages will contain each products supported platform & product rating, The purpose of this is to support the user story:
-
-_<pre>I should be able to view and compare ratings & platforms on individual products</pre>_
-
-The web application will frequentely keep the competetive products up to date, The purpose of this is to support the user story:
-_<pre>I should be able to see any recent updates/changes made to the web application</pre>_
-
----
 
 
 
 
-[comment]: <> (--------------------------------WIREFRAMES)
 
-# DESIGN
+# DEPLOYMENT
+## To deploy this site locally follow the steps below:
+Click on the green 'code' button on the GamesDirect repository
+Select one of two options 'Download as ZIP', 'Open with GitHub Desktop'
+If 'Download as ZIP' chosen follow the steps below:
+Open the folder downloaded, un ZIP the folder using a third party application like WinZip, WinRar
+Open the unzipped folder into your IDE (integrated development environment)
+For VSCode users, you can download the 'Live server' plugin and launch the project using a local server
+For users using any other IDE you will need to find out how to launch this project on the respective IDE
+Open your IDE of choice and open a terminal window in a directory of your choice
+Use the 'git clone' command in terminal followed by the copied git URL.
+A clone of the project will be created locally on your machine.
 
-## Home Pages
 
-### **_Mobile/Tablet/Desktop_**
-
-<img src="assets/wireframes/Home-mobile.png" alt="drawing" width="175" height="300"/>
-
-<img src="assets/wireframes/home-tablet.png" alt="drawing" width="220" height="300"/>
-
-<img src="assets/wireframes/Home-desktop.png" alt="drawing" width="320" height="200"/>
-
----
-
-[comment]: <> (--------------------------------TOP RATED PAGES)
-
-## **_TOP RATED PAGES_**
-
----
-
-### **Mobile/Tablet/Desktop**
-
-<img src="assets/wireframes/Toprated-mobile.png" alt="drawing" width="175" height="300"/>
-<img src="assets/wireframes/Toprated-tablet.png" alt="drawing" width="220" height="300"/>
-<img src="assets/wireframes/Toprated-desktop.png" alt="drawing" width="320" height="200"/>
-
----
-
-[comment]: <> (------5--------------------------FEATURED PAGES)
-
-# **_FEATURED PAGES_**
-
-### **Mobile/Tablet/Desktop**
-
-<img src="assets/wireframes/Featured-mobile.png" alt="drawing" width="175" height="300"/>
-<img src="assets/wireframes/Featured-tablet.png" alt="drawing" width="220" height="300"/>
-<img src="assets/wireframes/Featured-desktop.png" alt="drawing" width="320" height="200"/>
-
-[comment]: <> (--------------------------------CONTACT PAGES)
-
-## **CONTACT PAGES**
-
----
-
-### **Mobile/Tablet/Desktop**
-
-<img src="assets/wireframes/Contact-mobile.png" alt="drawing" width="175" height="300"/>
-<img src="assets/wireframes/Contact-tablet.png" alt="drawing" width="210" height="300"/>
-<img src="assets/wireframes/Contact-desktop.png" alt="drawing" width="320" height="200"/>
-
-[comment]: <> (--------------------------------HOME PAGESS)
-
-### **_Wireframes [PDF]_**
-
-[Home Page](assets/wireframes/pdf/Home.pdf)<br>
-[Top Rated Page](assets/wireframes/pdf/Toprated.pdf)<br>
-[Featured Page](assets/wireframes/pdf/Featured.pdf)<br>
-[Contact Page](assets/wireframes/pdf/Contact.pdf)<br><br>
-
----
+## This site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://somadevv.github.io/GamesDirect/
