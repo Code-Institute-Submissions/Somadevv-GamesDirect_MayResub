@@ -27,8 +27,6 @@ This Website was created for the sole purpose of completing my first Milestone P
 
 ---
 
-# **UX/UI**
-
 <ul>
 
 # **User Stories**
@@ -61,6 +59,7 @@ This Website was created for the sole purpose of completing my first Milestone P
 <li>I should be able to contact/email support if I feel they have missed out on a top rated/featured game</li></ul><br>
 
 
+# **USER EXPERIENCE**
 
 ## FIRST TIME VISITORS
 
