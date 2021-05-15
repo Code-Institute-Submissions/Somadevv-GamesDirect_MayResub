@@ -124,7 +124,7 @@ Custom CSS and/or Bootstrap will be used to make the Website responsive by the u
 
 All web pages will contain a Navigation menu at the top of the Webpage that directs them to their respected page to allow for easy navigation around the site. The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices. The purpose of this is to fulfill the user story:
 
-<pre>I should be able to view the web application and the content within it clearly on my mobile/tablet device**
+<pre>I should be able to view the web application and the content within it clearly on my mobile/tablet device</pre>
 
 All pages will be responsive and the layouts will change depending on screen size. This is to ensure content flow is appealing, images are displayed properly. The purpose of this is to fulfill the user story:
 
@@ -133,7 +133,6 @@ All pages will be responsive and the layouts will change depending on screen siz
 The Home Page will contain a small section explaining what the site's main focus is. The purpose of this is to fulfill the user story:
 
 <pre>I Should be able to view a detailed description of the web applications' main focus, to ensure it suits my needs</pre>
-
 
 The Contact Page will contain a form that can be used to contact the support team through the website. The purpose of this Page is to fulfill user stories:
 
