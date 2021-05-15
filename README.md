@@ -169,8 +169,6 @@ The Top-Rated page contains multiple games with their respective ratings. The pu
 
 <li>Ran README text through Online-Spellcheck to double-check on grammar and spelling.</li>
 
-
-
 # DESIGN
 ### Colour Scheme
 The main background colour is a pinkish red #fe4066 for the house style
