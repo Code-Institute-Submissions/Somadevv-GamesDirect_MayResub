@@ -59,7 +59,9 @@ This Website was created for the sole purpose of completing my first Milestone P
 <li>I should be able to view the external social links effortlessly</li>
 <li>I should be able to view and compare ratings & platforms on individual products</li>
 <li>I should be able to view a detailed description on the web applications' main focus, to ensure it suites my needs</li>
-<li>I should be able to see any recent updates/changes made to the web application</li></ul>
+<li>I should be able to see any recent updates/changes made to the web application</li>
+<li>I should be able to return to the homepage via the main Logo on the navigation bar</li>
+</ul>
 
 ### **Returning Visitor Goals**
 
@@ -352,11 +354,11 @@ All images used throughout the website were taken from a free source: [Wallpaper
 
 # TESTING
 <ul>
-<li>Tested  each navigation link is working correctly and navigates the user to the respective web page.</li>
 
-<li>Tested homepage logo ensuring it directs/redirects the user to the homepage.
+<li>Tested homepage logo ensuring it directs/redirects the user to the homepage
+<pre>I should be able to return to the homepage via the main Logo on the navigation bar</pre></li>
 
-<li>Tested Social Media icons in Footer to ensure they open the correct pages, also added functionality to point the user into a new tab.
+<li>Tested Social Media icons in Footer to ensure they open the correct pages, also added functionality to point the user into a new tab.</li>
 
 <li>Tested Submit button in the contact section to ensure the user is updated when the form has been submitted.</li>
 
