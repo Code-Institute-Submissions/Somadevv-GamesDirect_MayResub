@@ -2,6 +2,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;![Logo](assets/images/logo_wg.png)
 
 ---
+# Live website
+The link to the live website can be found here: https://somadevv.github.io/GamesDirect/
+
 ## Table of Contents
 * [Purpose](#Purpose)
 * [User stories](#User-Stories)
