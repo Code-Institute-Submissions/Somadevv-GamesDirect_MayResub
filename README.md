@@ -374,7 +374,10 @@ All images used throughout the website were taken from a free source: [Wallpaper
 
 ## <li>HTML Validation testing</li>
 <li>Tested HTML Validation No errors or warnings to show. The results of the validation tests can be seen below</li>
-![image](https://user-images.githubusercontent.com/75903665/118369478-74426a00-b59b-11eb-8236-adbcb389ba85.png)
+![index page](assets/images/testing_index.png)
+![Top rated page](assets/images/testing_toprated.png)
+![Featured page](assets/images/testing_featured.png)
+![Contact page](assets/images/testing_contact.png)
 
 
 # DEPLOYMENT
