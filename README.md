@@ -369,23 +369,32 @@ All images used throughout the website were taken from a free source: [Wallpaper
 
 # DEPLOYMENT
 ## To deploy this site locally follow the steps below:
-Click on the green 'code' button on the GamesDirect repository
-Select one of two options 'Download as ZIP', 'Open with GitHub Desktop'
-If 'Download as ZIP' chosen follow the steps below:
-Open the folder downloaded, un ZIP the folder using a third party application like WinZip, WinRar
-Open the unzipped folder into your IDE (integrated development environment)
-For VSCode users, you can download the 'Live server' plugin and launch the project using a local server
-For users using any other IDE you will need to find out how to launch this project on the respective IDE
-Open your IDE of choice and open a terminal window in a directory of your choice
-Use the 'git clone' command in terminal followed by the copied git URL.
-A clone of the project will be created locally on your machine.
+- Click on the green 'code' button on the GamesDirect repository
+
+- Select one of two options 'Download as ZIP', 'Open with GitHub Desktop'
+
+- If 'Download as ZIP' chosen follow the steps below:
+
+- Open the folder downloaded, un ZIP the folder using a third party application like WinZip, WinRar
+
+- Open the unzipped folder into your IDE (integrated development environment)
+
+- For VSCode users, you can download the 'Live server' plugin and launch the project using a local server
+
+- For users using any other IDE you will need to find out how to launch this project on the respective IDE
+
+- Open your IDE of choice and open a terminal window in a directory of your choice
+
+- Use the 'git clone' command in terminal followed by the copied git URL.
+
+- A clone of the project will be created locally on your machine.
 
 
 ## This site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://somadevv.github.io/GamesDirect/
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found here - https://somadevv.github.io/GamesDirect/
 
 
 # CREDITS
