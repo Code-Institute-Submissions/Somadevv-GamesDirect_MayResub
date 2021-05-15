@@ -375,6 +375,8 @@ All images used throughout the website were taken from a free source: [Wallpaper
 ## <li>HTML Validation testing</li>
 <li>Tested HTML Validation No errors or warnings to show. The results of the validation tests can be seen below</li>
 
+Each page showed consistent errors. Each had stray closing div tags, scripttag attritubutes that were not supported and unclosed nav tags. To fix these errors i corrected all of the above to ensure all web pages passed the validation tests with no errors.
+
 ![index page](assets/images/testing_index.png)
 
 ![Top rated page](assets/images/testing_toprated.png)
